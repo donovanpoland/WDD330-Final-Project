@@ -1,39 +1,38 @@
 /* Variables */
-:root{
-    /* back ground colors */
-    --bgc: black;
+:root {
+  /* back ground colors */
+  --bgc: black;
 
-    /* Text colors */
-    --textc: white;
+  /* Text colors */
+  --textc: white;
 
-    /* Fonts */
-    /* Basic will change later */
-    --hfont: 'Courier New', Courier, monospace;
-    --pfont: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* Fonts */
+  /* Basic will change later */
+  --hfont: "Courier New", Courier, monospace;
+  --pfont: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
-    /* Border colors */
+  /* Border colors */
 
-    /* Shadows */
+  /* Shadows */
 
-    /* Spacing */
+  /* Spacing */
 }
 
 /* Normalization */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: var(--pfont);
-    color: var(--textc);
-    background-color: var(--bgc);
+body {
+  font-family: var(--pfont);
+  color: var(--textc);
+  background-color: var(--bgc);
 
-    h1{
-        
-        font-family: var(--hfont);
-    }
+  h1 {
+    font-family: var(--hfont);
+  }
 }
 
 /* Navigation */
@@ -45,4 +44,3 @@ body{
 /* Grid areas */
 
 /* Footer */
-

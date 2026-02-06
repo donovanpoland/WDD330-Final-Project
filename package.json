@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "build": "vite build --emptyOutDir"
   },
-  "keywords": ["resume",
+  "keywords": [
+    "resume",
     "resume-builder",
     "resume-tailoring",
     "cover-letter",
@@ -26,7 +27,8 @@
     "workshop",
     "career-prep",
     "frontend",
-    "web-app"],
+    "web-app"
+  ],
   "author": "Donovan Poland",
   "license": "ISC",
   "description": "An interactive resume-tailoring and job application workspace that helps users analyze job listings, align skills, and generate targeted resumes and cover letters with clarity and confidence.",
