@@ -1,0 +1,40 @@
+{
+  "name": "wdd330-final-project",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint *.js src/**/*.js",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
+    "start": "vite",
+    "preview": "vite preview",
+    "build": "vite build --emptyOutDir"
+  },
+  "keywords": ["resume",
+    "resume-builder",
+    "resume-tailoring",
+    "cover-letter",
+    "job-search",
+    "job-applications",
+    "career-tools",
+    "career-development",
+    "employment",
+    "skills-matching",
+    "job-analysis",
+    "ats",
+    "portfolio",
+    "workshop",
+    "career-prep",
+    "frontend",
+    "web-app"],
+  "author": "Donovan Poland",
+  "license": "ISC",
+  "description": "An interactive resume-tailoring and job application workspace that helps users analyze job listings, align skills, and generate targeted resumes and cover letters with clarity and confidence.",
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "prettier": "^3.8.1",
+    "vite": "^7.3.1"
+  }
+}

@@ -1,0 +1,48 @@
+/* Variables */
+:root{
+    /* back ground colors */
+    --bgc: black;
+
+    /* Text colors */
+    --textc: white;
+
+    /* Fonts */
+    /* Basic will change later */
+    --hfont: 'Courier New', Courier, monospace;
+    --pfont: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /* Border colors */
+
+    /* Shadows */
+
+    /* Spacing */
+}
+
+/* Normalization */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--pfont);
+    color: var(--textc);
+    background-color: var(--bgc);
+
+    h1{
+        
+        font-family: var(--hfont);
+    }
+}
+
+/* Navigation */
+
+/* Custom classes */
+
+/* Content Decoration */
+
+/* Grid areas */
+
+/* Footer */
+
