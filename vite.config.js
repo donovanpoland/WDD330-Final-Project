@@ -3,6 +3,9 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   root: "src/",
+  preview: {
+    allowedHosts: true,
+  },
   build: {
     outDir: "../dist",
     rollupOptions: {
