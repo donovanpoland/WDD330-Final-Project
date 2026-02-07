@@ -1,0 +1,42 @@
+<!-- Site logo and link to homepage when clicked, smaller image on mobile and larger on desktop-->
+<div class="header grid">
+  <a id="logo" href="../index.html">
+    <picture>
+      <source
+        srcset="
+          /images/logos/rw-tpb-w-logo-100.webp 100w,
+          /images/logos/rw-tpb-w-logo-75.webp   75w,
+          /images/logos/rw-tpb-w-logo-50.webp   50w
+        "
+        sizes="(max-width: 480px) 50px,
+                            (max-width: 1024px) 75px,
+                            100px"
+        type="image/webp"
+      />
+      <img
+        src="/images/logos/rw-tpb-w-logo-75.webp"
+        alt="Recipe Explorer logo"
+        width="100"
+        height="100"
+        loading="eager"
+        fetchpriority="high"
+      />
+    </picture>
+  </a>
+  <!-- Site name -->
+  <span>Resume Workshop</span>
+  <!-- Hamburger button -->
+  <button
+    id="ham-btn"
+    class="hamburger"
+    aria-label="navigation"
+    title="Menu"
+  ></button>
+</div>
+<!-- Navigation -->
+<nav id="nav-bar" class="navigation">
+  <ul>
+    <li><a href="../jobs/index.html">Jobs</a></li>
+    <li><a href="../workshop/index.html">Workshop</a></li>
+  </ul>
+</nav>

@@ -1,0 +1,86 @@
+/** Header **/
+
+.header {
+  grid-template-columns: minmax(75px, 100px) 1fr var(--touch-target);
+  gap: var(--small);
+  align-items: center;
+  /* top/bottom 0, left/right 16px */
+  margin: 0 var(--normal);
+
+  & img {
+    display: block;
+    width: 100%;
+    height: auto;
+    grid-column: 1/2;
+  }
+  & span {
+    display: none;
+  }
+}
+
+/* Logo */
+
+#logo picture,
+#logo img {
+  height: auto;
+  max-height: 100px;
+  width: auto;
+  display: block;
+}
+
+/** Hamburger **/
+
+.hamburger {
+  display: flex;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(hfont);
+  color: var(--color-text);
+  grid-column: 3/4;
+  justify-content: flex-end;
+  text-align: center;
+  align-items: center;
+  font-size: var(--double);
+
+  &::after {
+    content: "\2630";
+    margin-left: var(--small);
+  }
+  &.show::after {
+    content: "\00D7";
+    /* 2 rem plus 1 rem */
+    font-size: calc(var(--double) + var(--normal));
+  }
+}
+
+/** Navigation **/
+
+nav {
+  width: 100%;
+  grid-column: 1/-1;
+}
+
+.navigation {
+  display: none;
+
+  &.show {
+    display: flex;
+    flex-direction: column;
+    gap: var(--small);
+    width: 100%;
+  }
+  & li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--touch-target);
+    list-style: none;
+    background-color: var(--bg-card-inner);
+    border-bottom: var(--border-small) solid var(--border-subtle);
+  }
+  & li a {
+    color: var(--color-text);
+    font-size: var(--plushalf);
+  }
+}
