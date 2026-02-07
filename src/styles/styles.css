@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Inter";
-  src: url("../assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  src: url("../assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf")
+    format("truetype");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -34,9 +35,9 @@
 /* Variables */
 :root {
   /* back ground colors */
-    --bg-base: #0f172a;
-    --bg-card: #020617;
-    --bg-card-inner: #0b1120;
+  --bg-base: #0f172a;
+  --bg-card: #020617;
+  --bg-card-inner: #0b1120;
 
   /* Text colors */
   --color-text: #e5e7eb;
@@ -57,20 +58,20 @@
   --shadow-focus: 0 0 0 1px rgba(56, 189, 248, 0.6);
   --shadow-inset: inset 0 0 0 1px rgba(148, 163, 184, 0.15);
 
-  /* Spacing Units */
+  /* Units for spacing and sizes*/
   --border-small: 1px;
   --border-medium: 2px;
   --border-large: 4px;
-  --radius: .5rem;
-  --small: .5rem;
-  --medium: 1rem;
-  --large: 2rem;
-  --double: 4rem;
+  --radius: 0.5rem;
+  --half: 0.5rem;
+  --normal: 1rem;
+  --plushalf: 1.5rem;
+  --double: 2rem;
+  --quad: 4rem;
   --touch-target: 44px;
   --op-light: 0.1;
   --op-med: 0.5;
   --op-dark: 0.9;
-
 }
 
 /* Normalization */
@@ -83,19 +84,59 @@
 body {
   font-family: var(--pfont);
   color: var(--color-text);
-  background-color: var(--bgc);
+  background-color: var(--bg-base);
+  font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+main {
+  padding: var(--normal);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--color-text);
 }
 
-/* Navigation */
+a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+}
 
 /* Custom classes */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--small);
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  gap: var(--small);
+}
+
+.grid {
+  display: grid;
+  gap: var(--small);
+}
+
+.center {
+  text-align: center;
+}
+
+.indent {
+  text-indent: 1rem;
+}
 
 /* Content Decoration */
 
 /* Grid areas */
 
 /* Footer */
+footer {
+  padding: var(--normal);
+}

@@ -1,0 +1,68 @@
+@media only screen and (min-width: 38em) {
+  /* Header */
+  header {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header span nav";
+    position: relative;
+    border-bottom: var(--border-small) solid var(--border-strong);
+  }
+
+  .header {
+    grid-template-columns: minmax(75px, 100px) var(--touch-target);
+    grid-area: header;
+
+    & span {
+      grid-area: span;
+      display: block;
+      /* Resmume workshop at 1.5rem */
+      width: 264px;
+      font-size: 1.5rem;
+    }
+  }
+
+  /* Navigation */
+  .hamburger {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    grid-area: nav;
+    justify-content: end;
+    width: 100%;
+    padding-right: var(--normal);
+    align-items: center;
+
+    & ul {
+      display: flex;
+      justify-content: flex-end;
+      gap: var(--half);
+    }
+    & li {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex: 0 0 auto;
+      background-color: transparent;
+      padding: var(--half);
+      border: var(--border-medium) solid var(--border-subtle);
+      border-radius: var(--radius);
+      transition:
+        border-color 0.3s ease-in-out,
+        box-shodow 0.3s ease-in-out;
+    }
+    & li:hover {
+      border-color: var(--border-strong);
+      box-shadow: var(--shadow-focus);
+    }
+
+    & li a {
+      font-size: var(--plushalf);
+      border: none;
+      transition: color 0.3s ease-in-out;
+    }
+    & li a:hover {
+      color: var(--color-text);
+    }
+  }
+}

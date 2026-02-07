@@ -11,6 +11,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "src/index.html"),
+        jobs: resolve(__dirname, "src/jobs/index.html"),
+        workshop: resolve(__dirname, "src/workshop/index.html"),
         // add more pages here
       },
     },
