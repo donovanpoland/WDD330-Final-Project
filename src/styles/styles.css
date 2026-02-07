@@ -1,21 +1,76 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Variables */
 :root {
   /* back ground colors */
-  --bgc: black;
+    --bg-base: #0f172a;
+    --bg-card: #020617;
+    --bg-card-inner: #0b1120;
 
   /* Text colors */
-  --textc: white;
+  --color-text: #e5e7eb;
+  --color-text-muted: #9ca3af;
 
   /* Fonts */
-  /* Basic will change later */
-  --hfont: "Courier New", Courier, monospace;
-  --pfont: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  --fallback: sans-serif;
+  --hfont: "Poppins", var(--fallback);
+  --pfont: "Inter", var(--fallback);
 
   /* Border colors */
+  --border-strong: #38bdf8;
+  --border-subtle: #1e293b;
 
   /* Shadows */
+  --shadow-card: 0 18px 45px rgba(15, 23, 42, 0.75);
+  --shadow-soft: 0 8px 24px rgba(15, 23, 42, 0.45);
+  --shadow-focus: 0 0 0 1px rgba(56, 189, 248, 0.6);
+  --shadow-inset: inset 0 0 0 1px rgba(148, 163, 184, 0.15);
 
-  /* Spacing */
+  /* Spacing Units */
+  --border-small: 1px;
+  --border-medium: 2px;
+  --border-large: 4px;
+  --radius: .5rem;
+  --small: .5rem;
+  --medium: 1rem;
+  --large: 2rem;
+  --double: 4rem;
+  --touch-target: 44px;
+  --op-light: 0.1;
+  --op-med: 0.5;
+  --op-dark: 0.9;
+
 }
 
 /* Normalization */
@@ -27,12 +82,12 @@
 
 body {
   font-family: var(--pfont);
-  color: var(--textc);
+  color: var(--color-text);
   background-color: var(--bgc);
+}
 
-  h1 {
-    font-family: var(--hfont);
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--color-text);
 }
 
 /* Navigation */
