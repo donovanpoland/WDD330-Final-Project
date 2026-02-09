@@ -1,0 +1,62 @@
+[
+    {
+      "CompanyName": "Northlight Labs",
+      "Source": "indeed",
+      "Position": "Frontend Developer",
+      "ImageUrl": "/images/logos/northlight-labs.png",
+      "Location": "Boise, ID (Hybrid)",
+      "DaysListed": "3 days ago",
+      "Salary": "$68,000 - $82,000",
+      "Description": "Build and maintain responsive UI components, collaborate with design, and optimize performance across modern browsers."
+    },
+    {
+      "CompanyName": "Cedar Ridge Analytics",
+      "Source": "glassdoor",
+      "Position": "Junior Data Analyst",
+      "ImageUrl": "/images/logos/cedar-ridge.png",
+      "Location": "Remote",
+      "DaysListed": "1 day ago",
+      "Salary": "$58,000 - $70,000",
+      "Description": "Clean and analyze datasets, create dashboards, and assist with reporting insights to product and operations teams."
+    },
+    {
+      "CompanyName": "Riverbend Health",
+      "Source": "linkedin",
+      "Position": "IT Support Specialist",
+      "ImageUrl": "/images/logos/riverbend-health.png",
+      "Location": "Idaho Falls, ID (On-site)",
+      "DaysListed": "5 days ago",
+      "Salary": "$46,000 - $55,000",
+      "Description": "Provide Tier 1/2 support, manage device setup, and troubleshoot network and software issues for staff."
+    },
+    {
+      "CompanyName": "Summit Trail Outfitters",
+      "Source": "indeed",
+      "Position": "Ecommerce Coordinator",
+      "ImageUrl": "/images/logos/summit-trail.png",
+      "Location": "Twin Falls, ID (Hybrid)",
+      "DaysListed": "7 days ago",
+      "Salary": "$52,000 - $60,000",
+      "Description": "Maintain product listings, coordinate promotions, and track KPIs across ecommerce channels."
+    },
+    {
+      "CompanyName": "Pine & Stone Creative",
+      "Source": "glassdoor",
+      "Position": "Graphic Designer",
+      "ImageUrl": "/images/logos/pine-stone.png",
+      "Location": "Remote",
+      "DaysListed": "2 days ago",
+      "Salary": "$50,000 - $65,000",
+      "Description": "Design brand assets, social graphics, and marketing collateral with a strong focus on typography and layout."
+    },
+    {
+      "CompanyName": "Skyline Transit",
+      "Source": "linkedin",
+      "Position": "Operations Coordinator",
+      "ImageUrl": "/images/logos/skyline-transit.png",
+      "Location": "Pocatello, ID",
+      "DaysListed": "10 days ago",
+      "Salary": "$48,000 - $56,000",
+      "Description": "Coordinate schedules, monitor service metrics, and support dispatch operations with daily reporting."
+    }
+]

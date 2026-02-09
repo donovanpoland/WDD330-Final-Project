@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="/styles/navigation.css" />
     <link rel="stylesheet" href="/styles/desktop.css" />
     <!-- Scripts -->
-    <script type="module" src="../scripts/common.js"></script>
-    <script type="module" src="../scripts/jobs.js"></script>
+    <script type="module" src="../scripts/utils/common.js"></script>
+    <script type="module" src="../scripts/pages/jobs.js"></script>
     <!-- Favicon -->
     <link
       rel="apple-touch-icon"
@@ -38,21 +38,30 @@
     </header>
     <main>
       <h1>Jobs</h1>
-      <section class="card">
-        <!-- Hero section -->
-        <h2>Test paragraph</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil
-          explicabo reiciendis temporibus impedit labore! Dicta sit harum porro
-          voluptas? Natus ab officiis illo in, labore animi exercitationem
-          ratione magni odio!
-        </p>
+
+      <section id="indeed" class="grid list-container">
+        <h2>Indeed</h2>
+        <div id="job-list-indeed" class="flex-row job-list">
+          <!-- Insert list of jobs here -->
+        </div>
       </section>
-      <ul>
-        <!-- List of jobs will dynamicly display here with js -->
-      </ul>
+
+      <section id="glassdoor" class="grid list-container">
+        <h2>Glassdoor</h2>
+        <div id="job-list-glassdoor" class="flex-row job-list">
+          <!-- Insert list of jobs here -->
+        </div>
+      </section>
+
+      <section id="linkedin" class="grid list-container">
+        <h2>LinkedIn</h2>
+        <div id="job-list-linkedin" class="flex-row job-list">
+          <!-- Insert list of jobs here -->
+        </div>
+      </section>
+
     </main>
-    <footer id="dy-footer">
+    <footer id="dy-footer" class="flex-row">
       <!-- Dynamicly display footer info here with js -->
     </footer>
   </body>
