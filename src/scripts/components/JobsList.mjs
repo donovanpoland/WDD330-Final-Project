@@ -25,6 +25,11 @@ export default class JobList{
     }
 }
 
+const noSalary = "No salary Listed.";
+const seePosting = "See full posting for detailed responsibilities.";
+const noRequirements = "No requirements listed";
+const noURL = "#";
+
 function jobCardTemplate(job){
     return`
         <article class="card grid job-card">
@@ -36,7 +41,7 @@ function jobCardTemplate(job){
             <ul class="flex-row">
               <li>📍${job.Location}</li>
               <li>🕒${job.DaysListed}</li>
-              <li>💰${job.Salary}</li>
+              <li>💰${job.Salary || noSalary}</li>
             </ul>
             <p>${job.Description}</p>
             <button class="view-job-btn" data-job-id="${job._jobId}" aria-haspopup="dialog" type="button">View</button>
@@ -51,21 +56,27 @@ export function jobModalTemplate(job){
                     <h2>${job.CompanyName}</h2>
                     <h3>${job.Position}</h3>
                 </div>
-                <img src="${job.ImageUrl}" alt="Logo for ${job.CompanyName}">
+                <a class="btn" href="${job.CompanySite}">
+                    <img src="${job.ImageUrl}" alt="" title="${job.CompanyName}">
+                </a>
                 <button id="close" data-close-dialog aria-label="Close" type="button">❌</button>
             </div>
             <ul class="flex-row">
                 <li>📍${job.Location}</li>
                 <li>🕒${job.DaysListed}</li>
-                <li>💰${job.Salary}</li>
+                <li>💰${job.Salary || noSalary}</li>
             </ul>
             <h3>Description</h3>
             <p>${job.Description}</p>
             <h3>Responsibilities</h3>
-            <p>${job.Responsibilities || "See full posting for detailed responsibilities."}</p>
+            <p>${job.Responsibilities || seePosting}</p>
+            <h3>Required</h3>
+            <p>${job.Requirements || noRequirements}</p>
+            <h3>Nice to haves</h3>
+            <p>${job.OtherReqs || noRequirements}</p>
             <div class="flex-row modal-btns"> 
-                <a class="btn" href="${job.listingURL}">View Full Posting</a>
-                <button>Favorite</button>
+                <a class="btn" href="${job.listingURL || noURL}" target="blank">View Full Posting</a>
+                <button id="add-fav">Favorite</button>
             </div>
         </article>`;
 }

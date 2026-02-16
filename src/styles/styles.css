@@ -115,7 +115,12 @@ a {
 dialog{
   margin: auto auto;
   color: var(--color-text);
-  border: none;
+  border: var(--border-medium) solid var(--border-strong);
+  border-radius: var(--radius);
+  
+  & ul{
+    list-style: none;
+  }
 }
 
 .modal-btns{
@@ -123,8 +128,12 @@ dialog{
 }
 
 .modal-head{
+  line-height: .8;
   grid-template-columns: 1fr 60px 44px;
 
+  & h3{
+    color: var(--color-text-muted);
+  }
   & img{
     width: 60px;
     height: auto;

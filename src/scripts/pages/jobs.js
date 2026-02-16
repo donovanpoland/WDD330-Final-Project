@@ -18,8 +18,10 @@ async function initJobsPage() {
       if (!element) return;
 
       const jobsList = new JobList(source, dataSource, element);
-      const scopedJobs = await jobsList.init();
-      scopedJobs.forEach((job, jobId) => jobsById.set(jobId, job));
+      //get mapped data of jobs list
+      const mappedJobs = await jobsList.init();
+      //in each job add an id # to it
+      mappedJobs.forEach((job, jobId) => jobsById.set(jobId, job));
     }),
   );
 }
