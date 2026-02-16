@@ -108,8 +108,47 @@ a {
   text-decoration: none;
 }
 
+::backdrop{
+    background-color: rgba(21, 21, 21, .7);
+}
+
+dialog{
+  margin: auto auto;
+  color: var(--color-text);
+  border: none;
+}
+
+.modal-btns{
+  justify-content: center;
+}
+
+.modal-head{
+  grid-template-columns: 1fr 60px 44px;
+
+  & img{
+    width: 60px;
+    height: auto;
+  }
+  & button{
+   justify-self: flex-end;
+  }
+}
+
+dialog #close{
+  font-size: var(--normal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--touch-target);
+  z-index: 10;
+}
+
 button,
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--normal);
   background-color: var(--bg-card-inner);
   border: var(--border-small) solid var(--border-subtle);
   border-radius: var(--radius);
@@ -213,7 +252,7 @@ button:focus-visible,
   & ul{
     justify-content: center;
     list-style-type: none;
-    font-size: calc(var(--normal) - .25rem);
+    font-size: calc(var(--normal) - .35rem);
   }
   & div{
     align-items: center;
