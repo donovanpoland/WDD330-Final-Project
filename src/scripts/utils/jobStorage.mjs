@@ -15,6 +15,7 @@ export function getStoredJobs(storageKey = JOBS_STORAGE_KEY) {
     if (!raw) return [];
     const parsed = JSON.parse(raw);
     // Only trust arrays; anything else is treated as invalid cache.
+    // Return parsed cache when it's an array; otherwise fall back to an empty list.
     return Array.isArray(parsed) ? parsed : [];
   } catch (error) {
     console.error("Failed to read jobs from storage:", error);

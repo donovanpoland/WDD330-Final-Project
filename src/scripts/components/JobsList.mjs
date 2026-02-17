@@ -15,6 +15,7 @@ export default class JobList{
 
     async init(listOverride){
         // Load jobs for this source only unless list is provided by page controller.
+        // Use the provided list when passed from page-level grouping; otherwise fetch by source.
         const list = Array.isArray(listOverride)
             ? listOverride
             : await this.dataSource.getData(this.listingLocation);
@@ -77,6 +78,7 @@ function truncateText(text, maxLength = cardDescriptionLength) {
 
 function resolveListingUrlForSource(job, sourceLabel) {
     const normalizedSource = String(sourceLabel || "").trim().toLowerCase();
+    // Use apply options when present; otherwise use an empty list.
     const options = Array.isArray(job?.ApplyOptions) ? job.ApplyOptions : [];
     const matchingOption = options.find((option) =>
         String(option?.publisher || "").trim().toLowerCase().includes(normalizedSource),
@@ -103,12 +105,14 @@ function formatSourceLabel(source) {
 }
 
 function toListItems(value, fallbackText) {
+    // Use value directly when it is already an array; otherwise split string text into list items.
     const list = Array.isArray(value)
         ? value
         : String(value || "")
             .split(/\n+|•|(?<=\.)\s+(?=[A-Z])/)
             .map((item) => item.trim())
             .filter(Boolean);
+    // Use parsed items when available; otherwise show a single fallback item.
     const safeList = list.length ? list : [fallbackText];
     return safeList.map((item) => `<li>${item}</li>`).join("");
 }

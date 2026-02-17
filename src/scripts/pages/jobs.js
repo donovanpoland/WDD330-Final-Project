@@ -12,6 +12,7 @@ const dataSource = new JobData({
   useLocal: !rapidApiKey,
   query: searchQuery,
   country: searchCountry,
+  // Use configured page count when valid; otherwise default to one page.
   numPages: Number.isFinite(searchNumPages) && searchNumPages > 0 ? searchNumPages : 1,
   datePosted: import.meta.env.VITE_JSEARCH_DATE_POSTED || "all",
 });
@@ -31,7 +32,9 @@ function toTitleCase(value) {
 function renderSearchContext() {
   if (!searchContext) return;
   const match = String(searchQuery).trim().match(/^(.*?)\s+jobs?\s+in\s+(.*)$/i);
+  // Use parsed "<role> jobs in <location>" format when it matches; otherwise use the full query.
   const category = match ? `${toTitleCase(match[1])} Jobs` : toTitleCase(searchQuery);
+  // Use parsed location when available; otherwise fall back to country code.
   const location = match ? toTitleCase(match[2]) : String(searchCountry || "").toUpperCase();
   const country = String(searchCountry || "").toUpperCase();
 
@@ -51,6 +54,7 @@ function sourceKey(source) {
 }
 
 function getJobSources(job) {
+  // Use multi-source list when present and non-empty; otherwise fall back to the primary source field.
   const sources = Array.isArray(job?.Sources) && job.Sources.length ? job.Sources : [job?.Source];
   return sources
     .map((source) => String(source || "").trim())

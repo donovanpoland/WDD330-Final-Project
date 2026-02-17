@@ -66,6 +66,7 @@ export default class JobData {
 
   inferSources(job) {
     const publisher = String(job.job_publisher || "").trim();
+    // Use apply_options when present; otherwise use an empty list.
     const applyOptions = Array.isArray(job.apply_options) ? job.apply_options : [];
     const uniqueByLower = new Map();
 
@@ -82,6 +83,7 @@ export default class JobData {
       }
     });
 
+    // If we found source names, return them; otherwise return a generic fallback.
     return uniqueByLower.size ? Array.from(uniqueByLower.values()) : ["Other"];
   }
 
@@ -93,6 +95,7 @@ export default class JobData {
   }
 
   normalizeApplyOptions(job) {
+    // Transform raw apply options when present; otherwise return an empty list.
     return Array.isArray(job.apply_options)
       ? job.apply_options
           .map((option) => ({
@@ -114,6 +117,7 @@ export default class JobData {
   }
 
   normalizeRawJSearchResponse(response) {
+    // Use response.data when available; otherwise treat as no jobs.
     const rawJobs = Array.isArray(response?.data) ? response.data : [];
     return rawJobs.map((job) => this.normalizeJSearchJob(job));
   }
@@ -126,6 +130,7 @@ export default class JobData {
     const companyDomain = this.getCompanyDomain(companySite);
     const applyOptions = this.normalizeApplyOptions(job);
     const preferredApplyLink = this.getPreferredApplyLink(job, applyOptions);
+    // Show "Remote"/"On-site" when boolean is provided; otherwise mark as unknown.
     const workType =
       typeof job.job_is_remote === "boolean"
         ? (job.job_is_remote ? "Remote" : "On-site")
@@ -144,12 +149,14 @@ export default class JobData {
         "Unknown Location",
       WorkType: workType,
       DaysListed: job.job_posted_at || "Recently posted",
+      // Show salary range only when both min and max values exist.
       Salary:
         job.job_min_salary && job.job_max_salary
           ? `$${job.job_min_salary} - $${job.job_max_salary}`
           : "No salary Listed",
       Description: job.job_description || "No description provided.",
       Responsibilities: highlights.Responsibilities || "No responsibilities listed.",
+      // Join qualification bullets when present; otherwise use a default message.
       Requirements: Array.isArray(highlights.Qualifications)
         ? highlights.Qualifications.join(" ")
         : "No Requirements listed.",
@@ -226,6 +233,7 @@ export default class JobData {
     this.jobsPromise = (async () => {
       const jobs = await this.fetchJobs();
       // Guard against malformed responses; always continue with an array.
+      // Keep jobs only when fetch returned an array; otherwise use empty list.
       const normalizedJobs = Array.isArray(jobs) ? jobs : [];
       saveJobs(normalizedJobs, this.getStorageKey());
       this.cachedJobs = normalizedJobs;
@@ -250,6 +258,7 @@ export default class JobData {
       const normalized = String(source || "").trim().toLowerCase();
       return data.filter((job) => {
         const primary = String(job.Source || "").trim().toLowerCase();
+        // Include all listed sources when Sources is an array; otherwise compare against an empty list.
         const multi = Array.isArray(job.Sources)
           ? job.Sources.map((item) => String(item || "").trim().toLowerCase())
           : [];

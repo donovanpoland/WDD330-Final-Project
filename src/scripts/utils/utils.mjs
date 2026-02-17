@@ -37,6 +37,7 @@ export async function loadTemplate(path) {
 // 2) a direct element/window/document reference.
 // Returns the resolved element, or null when not found.
 export function listen(selector, event, handler) {
+  // If selector is a CSS string, resolve it from DOM; otherwise use the passed element directly.
   const element =
     typeof selector === "string" ? document.querySelector(selector) : selector;
   if (!element) return null;
