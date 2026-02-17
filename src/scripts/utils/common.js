@@ -1,12 +1,14 @@
 import { renderWithTemplate, loadTemplate, onReady, listen } from "./utils.mjs";
 
-// When DOM is loaded, load the header and footer
+// Run shared page setup only after the DOM is ready.
 onReady(async () => {
+  // Inject common header/footer partials into the current page.
   await loadHeaderFooter();
+  // Update the footer year to the current year.
   getCurrentYear();
 });
 
-// get current year for footer
+// Find #current-year and set a copyright year string.
 function getCurrentYear() {
   const today = new Date();
   const currentYear = document.querySelector("#current-year");
@@ -15,32 +17,35 @@ function getCurrentYear() {
   }
 }
 
-// get header and footer path in html and template
+// Load header/footer HTML partials and attach common nav interactions.
 export async function loadHeaderFooter() {
-  // Add header to page
+  // Load header template text from /public/partials/header.html.
   const headerTemplate = await loadTemplate("/partials/header.html");
+  // Target element where header template will render.
   const headerElement = document.querySelector("#dy-header");
-  // Ensure header element is on page
+  // Not every page may include a header placeholder.
   if (headerElement) {
     renderWithTemplate(headerTemplate, headerElement);
   }
 
-  // Add footer to page
+  // Load footer template text from /public/partials/footer.html.
   const footerTemplate = await loadTemplate("/partials/footer.html");
+  // Target element where footer template will render.
   const footerElement = document.querySelector("#dy-footer");
-  // Ensure footer element is on page
+  // Not every page may include a footer placeholder.
   if (footerElement) {
     renderWithTemplate(footerTemplate, footerElement);
   }
 
+  // Mobile nav controls (injected by header template).
   const navButton = document.querySelector("#ham-btn");
   const navBar = document.querySelector("#nav-bar");
-  // Add class for showing navigation on hamburger button click
+  // Toggle menu open/closed when the hamburger is clicked.
   listen(navButton, "click", () => {
     navButton.classList.toggle("show");
     navBar.classList.toggle("show");
   });
-  // Remove class for showing navigation on page resize
+  // Reset mobile nav state when viewport size changes.
   listen(window, "resize", () => {
     navButton.classList.remove("show");
     navBar.classList.remove("show");

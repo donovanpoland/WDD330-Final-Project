@@ -78,6 +78,9 @@ nav {
     list-style: none;
     background-color: var(--bg-card-inner);
     border-bottom: var(--border-small) solid var(--border-subtle);
+    &:hover{
+      transform: translateY(-2px);
+    }
   }
   & li a {
     color: var(--color-text);

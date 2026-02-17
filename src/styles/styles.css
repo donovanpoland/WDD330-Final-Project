@@ -117,6 +117,7 @@ dialog{
   color: var(--color-text);
   border: var(--border-medium) solid var(--border-strong);
   border-radius: var(--radius);
+  max-width: 900px;
   
   & ul{
     list-style: none;
@@ -129,18 +130,39 @@ dialog{
 
 .modal-head{
   line-height: .8;
-  grid-template-columns: 1fr 60px 44px;
+  grid-template-columns: 1fr auto 44px;
 
   & h3{
     color: var(--color-text-muted);
   }
-  & img{
+  & a{
     width: 60px;
-    height: auto;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    background: #ffffff;
+    border-radius: var(--radius);
+    padding: calc(var(--half) / 2);
+    overflow: hidden;
+  }
+  & img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    image-rendering: auto;
   }
   & button{
    justify-self: flex-end;
   }
+}
+
+.modal-detail-list{
+  list-style: disc inside;
+  margin-left: var(--normal);
+}
+
+.modal-detail-list li{
+  margin-bottom: calc(var(--half) / 2);
 }
 
 dialog #close{
@@ -176,6 +198,7 @@ button:hover,
   background-color: var(--bg-button-hover);
   border-color: var(--border-strong);
   box-shadow: var(--shadow-focus);
+  transform: translateY(-2px);
 }
 
 button:focus-visible,
@@ -230,38 +253,79 @@ button:focus-visible,
 .list-container{
   gap: var(--half);
   margin: var(--normal);
-
+  overflow: hidden;
   & h2{
     color: var(--color-text-muted);
   }
 }
 
+.search-context{
+  margin: var(--normal);
+  gap: var(--half);
+}
+
+.search-context h2{
+  color: var(--color-text-muted);
+}
+
 .job-list{
+  gap: var(--normal);
   margin-left: var(--normal);
+}
+
+.jobs-source-list{
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: var(--half);
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-right: var(--double);
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) var(--bg-card-inner);
 }
 
 .job-card{
   max-width: 320px;
+  min-width: 280px;
   width: 100%;
   position: relative;
 
-
+  &:hover{
+    transform: translateY(-2px);
+    z-index: 2;
+  }
+  & h3{
+    max-width: 200px;
+  }
   & h5{
+    max-width: 160px;
     color: var(--color-text-muted);
   }
   & img{
     position: absolute;
     right: var(--half);
     top: var(--half);
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    image-rendering: auto;
+    background: #ffffff;
+    border-radius: var(--radius);
+    padding: calc(var(--half) / 2);
     align-self: last;
     justify-self: right;
+    color: black;
   }
   & ul{
     justify-content: center;
     list-style-type: none;
     font-size: calc(var(--normal) - .35rem);
+    cursor:default;
+  }
+
+  & li:hover{
+    scale: 1.1;
   }
   & div{
     align-items: center;
