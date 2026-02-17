@@ -1,0 +1,1009 @@
+{
+    "status": "OK",
+    "request_id": "2d440df0-3c32-49f2-9f7d-0b28be807206",
+    "parameters": {
+        "query": "developer jobs in utah",
+        "page": 1,
+        "num_pages": 1,
+        "date_posted": "all",
+        "country": "us",
+        "language": "en"
+    },
+    "data": [
+        {
+            "job_id": "0BYlQ9ayanNBPOi-AAAAAA==",
+            "job_title": "Software Developer Engineer",
+            "employer_name": "Adobe",
+            "employer_logo": null,
+            "employer_website": "https://www.adobe.com",
+            "job_publisher": "Adobe Careers",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://careers.adobe.com/us/en/job/R157106/Software-Developer-Engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": false,
+            "apply_options": [
+                {
+                    "publisher": "Adobe Careers",
+                    "apply_link": "https://careers.adobe.com/us/en/job/R157106/Software-Developer-Engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Workday",
+                    "apply_link": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Senior-Software-Developer_R157106?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Glassdoor",
+                    "apply_link": "https://www.glassdoor.com/job-listing/software-developer-engineer-adobe-JV_IC1128238_KO0,27_KE28,33.htm?jl=1009804134293&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Indeed",
+                    "apply_link": "https://www.indeed.com/viewjob?jk=0b3d4d27e1c71dad&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Career.io",
+                    "apply_link": "https://career.io/job/software-developer-engineer-4-lehi-adobe-systems-incorporated-35a5c957bd93bf42259c2b42c9beebf6?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "ZipRecruiter",
+                    "apply_link": "https://www.ziprecruiter.com/c/Adobe/Job/Software-Developer-Engineer/-in-Lehi,UT?jid=cd3dbae74475a71b&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "Dice",
+                    "apply_link": "https://www.dice.com/job-detail/e29ceb68-09b4-49dc-90f9-189440268502?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Teal",
+                    "apply_link": "https://www.tealhq.com/job/software-developer-engineer_7ea1ad8f06df63e1cfba8865eb1c17e69116d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "Our Company\n\nChanging the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands—everything they need to design and deliver exceptional digital experiences! We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen.\n\nWe’re on a mission to hire the very best and are committed to creating exceptional employee experiences where everyone is respected and has access to equal opportunity. We realize that new ideas can come from everywhere in the organization, and we know the next big idea could be yours!\n\nAdobe is redefining how enterprises harness data for customer experience. As a Software Development Engineer, you’ll be a technical leader driving the evolution of Adobe’s Experience Platform. You’ll architect scalable systems, influence governance strategy, and build tools that empower data-driven innovation across industries.\n\nWhy This Role Appeals to Visionaries\n• Architectural Ownership: Lead the design of core platform services that support billions of data transactions daily.\n• Strategic Impact: Shape Adobe’s data governance and privacy frameworks in collaboration with product and legal teams.\n• Innovation at Scale: Build intelligent systems that support real-time personalization, AI-driven insights, and secure data exchange.\n• Thought Leadership: Mentor engineers and represent Adobe in technical forums.\n\nWhat You’ll Build\n• Distributed microservices for data ingestion, transformation, and governance.\n• Metadata-driven APIs that support lineage tracking, policy enforcement, and federated access control.\n• AI-enhanced developer tools for compliance automation and anomaly detection.\n\nWhat You Bring\n• 4+ years of experience in backend or platform engineering, preferably in cloud-native environments.\n• Expertise in Java, or Python; experience with distributed systems.\n• Passion for building resilient, scalable, and secure systems.\n• Strong communication and leadership skills; ability to influence across teams.\n\nOur compensation reflects the cost of labor across several  U.S. geographic markets, and we pay differently based on those defined markets. The U.S. pay range for this position is $159,200 -- $301,600 annually. Pay within this range varies by work location and may also depend on job-related knowledge, skills, and experience. Your recruiter can share more about the specific salary range for the job location during the hiring process.\n\nAt Adobe, for sales roles starting salaries are expressed as total target compensation (TTC = base + commission), and short-term incentives are in the form of sales commission plans. Non-sales roles starting salaries are expressed as base salary and short-term incentives are in the form of the Annual Incentive Plan (AIP).\n\nIn addition, certain roles may be eligible for long-term incentives in the form of a new hire equity award.\n\nState-Specific Notices:\n\nCalifornia:\n\nFair Chance Ordinances\n\nAdobe will consider qualified applicants with arrest or conviction records for employment in accordance with state and local laws and “fair chance” ordinances.\n\nColorado:\n\nApplication Window Notice\n\nIf this role is open to hiring in Colorado (as listed on the job posting), the application window will remain open until at least the date and time stated above in Pacific Time, in compliance with Colorado pay transparency regulations. If this role does not have Colorado listed as a hiring location, no specific application window applies, and the posting may close at any time based on hiring needs.\n\nMassachusetts:\n\nMassachusetts Legal Notice\n\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\n\nAdobe is proud to be an Equal Employment Opportunity employer. We do not discriminate based on gender, race or color, ethnicity or national origin, age, disability, religion, sexual orientation, gender identity or expression, veteran status, or any other applicable characteristics protected by law. Learn more.\n\nAdobe aims to make Adobe.com accessible to any and all users. If you have a disability or special need that requires accommodation to navigate our website or complete the application process, email accommodations@adobe.com or call (408) 536-3015.",
+            "job_is_remote": false,
+            "job_posted_at": "3 days ago",
+            "job_posted_at_timestamp": 1770940800,
+            "job_posted_at_datetime_utc": "2026-02-13T00:00:00.000Z",
+            "job_location": "Lehi, UT",
+            "job_city": "Lehi",
+            "job_state": "Utah",
+            "job_country": "US",
+            "job_latitude": 40.3916172,
+            "job_longitude": -111.8507662,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D0BYlQ9ayanNBPOi-AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {
+                "Qualifications": [
+                    "Innovation at Scale: Build intelligent systems that support real-time personalization, AI-driven insights, and secure data exchange",
+                    "4+ years of experience in backend or platform engineering, preferably in cloud-native environments",
+                    "Expertise in Java, or Python; experience with distributed systems",
+                    "Passion for building resilient, scalable, and secure systems",
+                    "Strong communication and leadership skills; ability to influence across teams"
+                ],
+                "Benefits": [
+                    "Our compensation reflects the cost of labor across several  U.S. geographic markets, and we pay differently based on those defined markets",
+                    "The U.S. pay range for this position is $159,200 -- $301,600 annually",
+                    "At Adobe, for sales roles starting salaries are expressed as total target compensation (TTC = base + commission), and short-term incentives are in the form of sales commission plans",
+                    "Non-sales roles starting salaries are expressed as base salary and short-term incentives are in the form of the Annual Incentive Plan (AIP)",
+                    "In addition, certain roles may be eligible for long-term incentives in the form of a new hire equity award"
+                ],
+                "Responsibilities": [
+                    "As a Software Development Engineer, you’ll be a technical leader driving the evolution of Adobe’s Experience Platform",
+                    "You’ll architect scalable systems, influence governance strategy, and build tools that empower data-driven innovation across industries",
+                    "Distributed microservices for data ingestion, transformation, and governance",
+                    "Metadata-driven APIs that support lineage tracking, policy enforcement, and federated access control",
+                    "AI-enhanced developer tools for compliance automation and anomaly detection"
+                ]
+            },
+            "job_onet_soc": "15113200",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "JrJzzzuMUD2P6psBAAAAAA==",
+            "job_title": "Web Developer/Programmer",
+            "employer_name": "EMI Health",
+            "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa77qPNhKVw1hOAsptMumGDGEtQDT89fUGboGL&s=0",
+            "employer_website": "https://emihealth.com",
+            "job_publisher": "Indeed",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://www.indeed.com/viewjob?jk=f79aeea3aafaafb9&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": true,
+            "apply_options": [
+                {
+                    "publisher": "Indeed",
+                    "apply_link": "https://www.indeed.com/viewjob?jk=f79aeea3aafaafb9&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "ZipRecruiter",
+                    "apply_link": "https://www.ziprecruiter.com/c/EMI-Health/Job/Web-Developer-Programmer/-in-Salt-Lake-City,UT?jid=59e42e169380422d&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "BeBee",
+                    "apply_link": "https://us.bebee.com/job/de1aa0eea6454a6a78b19147f47488f1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "LinkedIn",
+                    "apply_link": "https://www.linkedin.com/jobs/view/web-developer-programmer-at-emi-health-4370899412?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Glassdoor",
+                    "apply_link": "https://www.glassdoor.com/job-listing/web-developer-programmer-emis-group-JV_IC1157881_KO0,24_KE25,35.htm?jl=1010029039560&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "SimplyHired",
+                    "apply_link": "https://www.simplyhired.com/job/onTXXXawFxUm1n7PuyAPeWCThYVtbQL0pGiMr0OKRTik4NER093wJA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Jobright",
+                    "apply_link": "https://jobright.ai/jobs/info/698ac235c5761b521a9a26a5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "Web Developer / Programmer\nLocation: Murray, UT (Hybrid after training, if applicable) This position requires living and working in UTAH.\n\nSchedule: Full-Time | Monday–Friday, 8:00 AM–5:00 PM\nType: Salaried (Exempt)\n\nAbout the Role\n\nEMI Health is a growing employee benefits company offering medical, dental, and vision insurance across many states. We’re hiring an experienced Web Developer/Programmer to help improve our public website, corporate intranet, and mobile app features. You’ll work with developers and business teams to understand what’s needed, build solutions, and keep systems secure and well documented.\n\nWhat You’ll Do\n• Build and update features for the website, intranet, and mobile app (with the Web Committee)\n• Meet with stakeholders to understand needs and turn them into technical requirements/specs\n• Create and maintain APIs and integrations using modern .NET and REST standards\n• Work with SQL Server databases (writing queries, improving performance, managing updates/migrations)\n• Use Entity Framework Core and LINQ to support data work\n• Document system functions and updates clearly\n• Troubleshoot issues, handle maintenance, and improve existing systems over time\n• Follow secure coding practices and use modern authentication/authorization\n• Support deployments and CI/CD pipelines (build, test, release) using Azure DevOps or GitHub Actions\n• Help with other projects as needed (assigned by the Development Manager and committees)\n\nWhat We’re Looking For\n• Experience: 5+ years in web development, ideally in Microsoft/.NET environments\n• Core Skills: .NET (VB.NET, ASP.NET, C#), HTML, JavaScript, Visual Studio, MS SQL\n• Modern .NET: Comfortable with ASP.NET Core, Web APIs, .NET 8/9, and minimal APIs\n• Front-End: Strong HTML/CSS/JavaScript; Blazor is a plus\n• Databases: Strong SQL Server experience (design, performance tuning, migrations)\n• Data Tools: Entity Framework Core, LINQ, and SQL integrations\n• Requirements & Documentation: Able to gather requirements and write clear technical documentation\n• API Skills: REST best practices (endpoints, HTTP methods, status codes, error handling, versioning)\n• API Docs: Experience with OpenAPI/Swagger; design-first is a plus\n• Security: Familiar with secure coding standards for .NET and OWASP guidelines\n• DevOps: Experience with CI/CD pipelines (Azure DevOps or GitHub Actions), quality checks, and multi-stage deployments (Dev/Test/Prod)\n• Nice to Have: ETL, XML/XSL, Key Vault, policy-based authorization, and data protection experience\n\nBenefits at EMI Health\n\nWe offer a strong benefits package, including paid medical and dental coverage for employees, paid time off, holiday pay, vision, life, disability, HSA, and retirement savings plans. Employees also have access to an onsite fitness center and subsidized mass transit passes.\n\nEMI Health is proud to be an Equal Employment Opportunity (EEO) employer.",
+            "job_is_remote": false,
+            "job_posted_at": "6 days ago",
+            "job_posted_at_timestamp": 1770681600,
+            "job_posted_at_datetime_utc": "2026-02-10T00:00:00.000Z",
+            "job_location": "Murray, UT",
+            "job_city": "Murray",
+            "job_state": "Utah",
+            "job_country": "US",
+            "job_latitude": 40.6668916,
+            "job_longitude": -111.88799089999999,
+            "job_benefits": [
+                "health_insurance",
+                "dental_coverage",
+                "paid_time_off"
+            ],
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DJrJzzzuMUD2P6psBAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {
+                "Qualifications": [
+                    "Experience: 5+ years in web development, ideally in Microsoft/.NET environments",
+                    "Core Skills: .NET (VB.NET, ASP.NET, C#), HTML, JavaScript, Visual Studio, MS SQL",
+                    "Modern .NET: Comfortable with ASP",
+                    "NET Core, Web APIs, .NET 8/9, and minimal APIs",
+                    "Databases: Strong SQL Server experience (design, performance tuning, migrations)",
+                    "Data Tools: Entity Framework Core, LINQ, and SQL integrations",
+                    "Requirements & Documentation: Able to gather requirements and write clear technical documentation",
+                    "API Skills: REST best practices (endpoints, HTTP methods, status codes, error handling, versioning)",
+                    "Security: Familiar with secure coding standards for .NET and OWASP guidelines",
+                    "DevOps: Experience with CI/CD pipelines (Azure DevOps or GitHub Actions), quality checks, and multi-stage deployments (Dev/Test/Prod)",
+                    "Nice to Have: ETL, XML/XSL, Key Vault, policy-based authorization, and data protection experience"
+                ],
+                "Benefits": [
+                    "Benefits at EMI Health",
+                    "We offer a strong benefits package, including paid medical and dental coverage for employees, paid time off, holiday pay, vision, life, disability, HSA, and retirement savings plans",
+                    "Employees also have access to an onsite fitness center and subsidized mass transit passes"
+                ],
+                "Responsibilities": [
+                    "Schedule: Full-Time | Monday–Friday, 8:00 AM–5:00 PM",
+                    "You’ll work with developers and business teams to understand what’s needed, build solutions, and keep systems secure and well documented",
+                    "Build and update features for the website, intranet, and mobile app (with the Web Committee)",
+                    "Meet with stakeholders to understand needs and turn them into technical requirements/specs",
+                    "Create and maintain APIs and integrations using modern .NET and REST standards",
+                    "Work with SQL Server databases (writing queries, improving performance, managing updates/migrations)",
+                    "Use Entity Framework Core and LINQ to support data work",
+                    "Document system functions and updates clearly",
+                    "Troubleshoot issues, handle maintenance, and improve existing systems over time",
+                    "Follow secure coding practices and use modern authentication/authorization",
+                    "Support deployments and CI/CD pipelines (build, test, release) using Azure DevOps or GitHub Actions",
+                    "Help with other projects as needed (assigned by the Development Manager and committees)"
+                ]
+            },
+            "job_onet_soc": "15113400",
+            "job_onet_job_zone": "3"
+        },
+        {
+            "job_id": "V3wLonv7j7J33rOzAAAAAA==",
+            "job_title": "Software Development Engineer",
+            "employer_name": "Adobe",
+            "employer_logo": null,
+            "employer_website": "https://www.adobe.com",
+            "job_publisher": "Adobe Careers",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://careers.adobe.com/us/en/job/R157878/Software-Development-Engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": false,
+            "apply_options": [
+                {
+                    "publisher": "Adobe Careers",
+                    "apply_link": "https://careers.adobe.com/us/en/job/R157878/Software-Development-Engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Workday",
+                    "apply_link": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Software-Development-Engineer_R164383?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Glassdoor",
+                    "apply_link": "https://www.glassdoor.com/job-listing/software-development-engineer-adobe-JV_IC1128238_KO0,29_KE30,35.htm?jl=1009826994077&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "ZipRecruiter",
+                    "apply_link": "https://www.ziprecruiter.com/c/Adobe/Job/Software-Development-Engineer-5/-in-Lehi,UT?jid=b4dc9ff8507e0df3&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "Indeed",
+                    "apply_link": "https://www.indeed.com/viewjob?jk=8a819723addc65a6&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "WayUp",
+                    "apply_link": "https://www.wayup.com/i-j-Software-Development-Engineer-5-Adobe-598444366164329/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Career.io",
+                    "apply_link": "https://career.io/job/software-development-engineer-lehi-adobe-systems-incorporated-5734688d545f99ad27206597517ab120?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "Monster",
+                    "apply_link": "https://www.monster.com/job-openings/software-development-engineer-lehi-ut--d617054e-9adc-45a1-8c33-b29f47a1b3da?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "JOB LEVEL\nP40\n\nADDITIONAL JOB LEVELS\nP30\n\n-\n\nEMPLOYEE ROLE\nIndividual Contributor\n\nOur Company\n\nChanging the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands—everything they need to design and deliver exceptional digital experiences! We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen.\n\nWe’re on a mission to hire the very best and are committed to creating exceptional employee experiences where everyone is respected and has access to equal opportunity. We realize that new ideas can come from everywhere in the organization, and we know the next big idea could be yours!\n\nThe Opportunity\n\nAdobe is seeking a Software Development Engineer to join our innovative team in Lehi. This outstanding opportunity gives you the chance to collaborate with world-class professionals, using the latest technology to achieve outstanding digital experiences.\n\nWhat you'll Do\n\nAs a vital contributor in our team, you'll address complex design obstacles directly, crafting outstanding web experiences that captivate users. You'll promote design thinking within development teams, encouraging collaboration between engineers and designers to build reusable, scalable code and cohesive user experiences. Through pair programming and peer reviews, you'll interact with colleagues to navigate advanced coding challenges, fuel innovative ideas, and refine groundbreaking methodologies.\n\nWe are crafting new generative AI powered tools empowering productivity and collaboration across the digital landscape. While implementing this far-reaching strategy we are focusing on using product driven development to drive rapid iteration and to continuously deliver measurable impact. This initiative is an outstanding opportunity to shape emerging next generation technology reaching millions of creators worldwide.\n\nWhat you need to succeed\n• A bachelor’s degree or equivalent experience in Computer Science or a related field.\n• 5-10+ years of demonstrated outstanding expertise in constructing and deploying web applications or interactive websites.\n• Expertise in JavaScript technologies (Lit, React, TypeScript).\n• Prior experience with back-end development technologies (Python, NodeJS).\n• Prior experience building generative AI applications, especially AI Agents\n• Established track record of delivering robust and intricate user interfaces.\n• Profound knowledge of web technologies, encompassing the DOM, web security, asynchrony, workers, and performance optimization.\n• Familiar with a variety of cloud and automation concepts, practices, and procedures.\n• Experience with developing, observing, and operating products using hyper-scaled public clouds such as Azure or AWS cloud platforms.\n\nPersonal Profile\n• Great teammate who thrives under pressure.\n• Interest in mentoring team members with groundbreaking technology.\n• Passionate about enhancing customer value with high-quality and reliable services.\n• Proven acuity in building and running world-class, quality services.\n• Passion for technology and exploration of emerging AI technologies.\n• Excellent interpersonal and communication skills.\n\nOur compensation reflects the cost of labor across several  U.S. geographic markets, and we pay differently based on those defined markets. The U.S. pay range for this position is $139,000 -- $257,550 annually. Pay within this range varies by work location and may also depend on job-related knowledge, skills, and experience. Your recruiter can share more about the specific salary range for the job location during the hiring process.‌\n\nAt Adobe, for sales roles starting salaries are expressed as total target compensation (TTC = base + commission), and short-term incentives are in the form of sales commission plans. Non-sales roles starting salaries are expressed as base salary and short-term incentives are in the form of the Annual Incentive Plan (AIP).\n\nIn addition, certain roles may be eligible for long-term incentives in the form of a new hire equity award.\n\nState-Specific Notices:\n\nCalifornia:\n\nFair Chance Ordinances\n\nAdobe will consider qualified applicants with arrest or conviction records for employment in accordance with state and local laws and “fair chance” ordinances.\n\nColorado:\n\nApplication Window Notice\n\nThere is no deadline to apply to this job posting because Adobe accepts applications for this role on an ongoing basis. The posting will remain open based on hiring needs and position availability.\n\nMassachusetts:\n\nMassachusetts Legal Notice\n\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\n\nInternal Opportunities\n\nCreativity, curiosity, and constant learning are celebrated aspects of your career growth journey. We’re glad that you’re pursuing a new opportunity at Adobe!\n\nPut your best foot forward:\n\n1. Update your Resume/CV and Workday profile – don’t forget to include your uniquely ‘Adobe’ experiences and volunteer work.\n\n2. Visit the Internal Mobility page on Inside Adobe to learn more about the process and set up a job alert for roles you’re interested in.\n\n3. Check out these tips to help you prep for interviews.\n\n4. If you are applying for a role outside of your current country, ensure you review the International Resources for Relocating Employees on Inside Adobe, including the impacts to your Benefits, AIP, Equity & Payroll.\n\nOnce you apply for a role via Workday, the Talent Team will reach out to you within 2 weeks. If you move into the official interview process with the hiring team, make sure you inform your manager so they can champion your career growth.\n\nAt Adobe, you will be immersed in an exceptional work environment that is recognized around the world. You will also be surrounded by colleagues who are committed to helping each other grow through our unique Check-In approach where ongoing feedback flows freely. If you’re looking to make an impact, Adobe's the place for you. Discover what our employees are saying about their career experiences on the Adobe Life blog and explore the meaningful benefits we offer.\n\nAdobe is proud to be an Equal Employment Opportunity employer. We do not discriminate based on gender, race or color, ethnicity or national origin, age, disability, religion, sexual orientation, gender identity or expression, veteran status, or any other applicable characteristics protected by law. Learn more.\n\nAdobe aims to make Adobe.com accessible to any and all users. If you have a disability or special need that requires accommodation to navigate our website or complete the application process, email accommodations@adobe.com or call (408) 536-3015.",
+            "job_is_remote": false,
+            "job_posted_at": null,
+            "job_posted_at_timestamp": null,
+            "job_posted_at_datetime_utc": null,
+            "job_location": "Lehi, UT",
+            "job_city": "Lehi",
+            "job_state": "Utah",
+            "job_country": "US",
+            "job_latitude": 40.3916172,
+            "job_longitude": -111.8507662,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DV3wLonv7j7J33rOzAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {
+                "Qualifications": [
+                    "A bachelor’s degree or equivalent experience in Computer Science or a related field",
+                    "5-10+ years of demonstrated outstanding expertise in constructing and deploying web applications or interactive websites",
+                    "Expertise in JavaScript technologies (Lit, React, TypeScript)",
+                    "Prior experience with back-end development technologies (Python, NodeJS)",
+                    "Prior experience building generative AI applications, especially AI Agents",
+                    "Established track record of delivering robust and intricate user interfaces",
+                    "Profound knowledge of web technologies, encompassing the DOM, web security, asynchrony, workers, and performance optimization",
+                    "Familiar with a variety of cloud and automation concepts, practices, and procedures",
+                    "Experience with developing, observing, and operating products using hyper-scaled public clouds such as Azure or AWS cloud platforms",
+                    "Great teammate who thrives under pressure",
+                    "Interest in mentoring team members with groundbreaking technology",
+                    "Passionate about enhancing customer value with high-quality and reliable services",
+                    "Proven acuity in building and running world-class, quality services",
+                    "Passion for technology and exploration of emerging AI technologies",
+                    "Excellent interpersonal and communication skills",
+                    "Update your Resume/CV and Workday profile – don’t forget to include your uniquely ‘Adobe’ experiences and volunteer work",
+                    "Visit the Internal Mobility page on Inside Adobe to learn more about the process and set up a job alert for roles you’re interested in"
+                ],
+                "Benefits": [
+                    "Our compensation reflects the cost of labor across several  U.S. geographic markets, and we pay differently based on those defined markets",
+                    "The U.S. pay range for this position is $139,000 -- $257,550 annually",
+                    "At Adobe, for sales roles starting salaries are expressed as total target compensation (TTC = base + commission), and short-term incentives are in the form of sales commission plans",
+                    "Non-sales roles starting salaries are expressed as base salary and short-term incentives are in the form of the Annual Incentive Plan (AIP)",
+                    "In addition, certain roles may be eligible for long-term incentives in the form of a new hire equity award",
+                    "Creativity, curiosity, and constant learning are celebrated aspects of your career growth journey",
+                    "If you are applying for a role outside of your current country, ensure you review the International Resources for Relocating Employees on Inside Adobe, including the impacts to your Benefits, AIP, Equity & Payroll"
+                ],
+                "Responsibilities": [
+                    "As a vital contributor in our team, you'll address complex design obstacles directly, crafting outstanding web experiences that captivate users",
+                    "You'll promote design thinking within development teams, encouraging collaboration between engineers and designers to build reusable, scalable code and cohesive user experiences",
+                    "Through pair programming and peer reviews, you'll interact with colleagues to navigate advanced coding challenges, fuel innovative ideas, and refine groundbreaking methodologies"
+                ]
+            },
+            "job_onet_soc": "15113200",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "Wd8J3znhHsRrbgt7AAAAAA==",
+            "job_title": "MPC Software Developer I",
+            "employer_name": "E. L. Blake, Inc.",
+            "employer_logo": null,
+            "employer_website": "https://elblakecorp.com",
+            "job_publisher": "ApplicantPro",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://www.applicantpro.com/openings/elblakecorp/jobs/3989526/UT-Utah/MPC-Software-Developer-I?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": false,
+            "apply_options": [
+                {
+                    "publisher": "ApplicantPro",
+                    "apply_link": "https://www.applicantpro.com/openings/elblakecorp/jobs/3989526/UT-Utah/MPC-Software-Developer-I?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Monster",
+                    "apply_link": "https://www.monster.com/job-openings/mpc-software-developer-i-hill-air-force-base-ut--52aa1f4e-f0f2-445e-9d91-4c8242060996?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                }
+            ],
+            "job_description": "Join a talented team that's making waves in the federal and public sectors! E.L. Blake Corporation is seeking a full-time MPC Software Developer I to improve existing systems and design functional new components for the Hill Air Force Base in Utah.\n\nYou'll need analytical problem-solving skills, close attention to detail, and an active security clearance. If you fit the bill, you'll earn $50,000 - $80,000/year and receive fantastic benefits and perks, including:\n• Health\n• Dental\n• Vision\n• Life insurance\n• 401(k) with company match\n• Growth opportunities\n• Responsible time off (RTO) policy\n\nReady for a dynamic new opportunity to solve interesting problems and help drive positive results for the Air Force? Keep reading to learn more!\n\nWHAT BECOMING OUR MPC SOFTWARE DEVELOPER I LOOKS LIKE\n\nYou'll be working on the Air Force Base, improving legacy system components and designing new ones to keep everything operating at peak functionality. This position coordinates with clients, stakeholders, and program staff to ensure systems fulfill all technical requirements. Thinking analytically, you'll develop and implement new components to meet changing customer desires and mission requirements. You'll also improve legacy systems according to modern best practices and development standards. Your efforts will contribute to more efficient and effective operations!\n\nEXPECTED HOURS\n\nYou'll work Monday through Friday from 8:00/9:00 am to 5:00 pm.\n\nMPC SOFTWARE DEVELOPER I REQUIREMENTS\n\nMinimum Criteria:\n• U.S. citizenship\n• Active secret security clearance\n• Demonstrated experience with .NET Framework (4.8 or newer), ASP.NET, C#, JavaScript, CSS, MSSQL, PowerShell, and HTML\n\nPreferred Qualifications:\n• CompTIA Security+ certification\n• Bachelor's degree in computer science, software engineering, web design, or a related field focused on software development OR an equivalent amount of relevant work experience\n• Experience in government, defense, or a highly regulated field\n• Ability to take the initiative and work independently within a defined technical scope\n• Sharp attention to detail and high levels of accuracy\n\nLEARN A LITTLE ABOUT WHAT WE DO\n\nAt E.L. Blake Inc., everything we do is rooted in collaboration, flexibility, and team empowerment! For over 12 years, our verified service-disabled, veteran-owned, and small disadvantaged business has been providing clients in the federal and public sectors with streamlined technical and business management services. Our specialty is training management for overseas deployments, helping soldiers plan and prepare for upcoming missions. Every team member plays a part in shaping our impactful projects, and we invest heavily in employee development. If you're ready to make a difference while growing alongside industry leaders, reach out today!\n\nREADY TO START?\n\nThis is your time to make a meaningful impact! Apply for this software development role by completing our short initial application.",
+            "job_is_remote": false,
+            "job_posted_at": "5 days ago",
+            "job_posted_at_timestamp": 1770768000,
+            "job_posted_at_datetime_utc": "2026-02-11T00:00:00.000Z",
+            "job_location": "Utah",
+            "job_city": null,
+            "job_state": "Utah",
+            "job_country": "US",
+            "job_latitude": 40.7606608,
+            "job_longitude": -111.8939487,
+            "job_benefits": [
+                "health_insurance"
+            ],
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DWd8J3znhHsRrbgt7AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {
+                "Qualifications": [
+                    "You'll need analytical problem-solving skills, close attention to detail, and an active security clearance",
+                    "MPC SOFTWARE DEVELOPER I REQUIREMENTS",
+                    "U.S. citizenship",
+                    "Active secret security clearance",
+                    "Demonstrated experience with .NET Framework (4.8 or newer), ASP.NET, C#, JavaScript, CSS, MSSQL, PowerShell, and HTML"
+                ],
+                "Benefits": [
+                    "If you fit the bill, you'll earn $50,000 - $80,000/year and receive fantastic benefits and perks, including:",
+                    "Health",
+                    "Dental",
+                    "Vision",
+                    "Life insurance",
+                    "401(k) with company match",
+                    "Growth opportunities",
+                    "Responsible time off (RTO) policy"
+                ],
+                "Responsibilities": [
+                    "You'll be working on the Air Force Base, improving legacy system components and designing new ones to keep everything operating at peak functionality",
+                    "This position coordinates with clients, stakeholders, and program staff to ensure systems fulfill all technical requirements",
+                    "Thinking analytically, you'll develop and implement new components to meet changing customer desires and mission requirements",
+                    "You'll also improve legacy systems according to modern best practices and development standards",
+                    "Your efforts will contribute to more efficient and effective operations!",
+                    "You'll work Monday through Friday from 8:00/9:00 am to 5:00 pm"
+                ]
+            },
+            "job_onet_soc": "15113200",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "-gFljVToiwc2n2zZAAAAAA==",
+            "job_title": "Senior Full-Stack Software Engineer",
+            "employer_name": "Signals",
+            "employer_logo": null,
+            "employer_website": "https://www.signals.com",
+            "job_publisher": "Indeed",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://www.indeed.com/viewjob?jk=92a0e161753c1312&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": true,
+            "apply_options": [
+                {
+                    "publisher": "Indeed",
+                    "apply_link": "https://www.indeed.com/viewjob?jk=92a0e161753c1312&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "ZipRecruiter",
+                    "apply_link": "https://www.ziprecruiter.com/c/Signals/Job/Full-Stack-Software-Engineer/-in-Provo,UT?jid=1c5f3d86b38cb5e8&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "SimplyHired",
+                    "apply_link": "https://www.simplyhired.com/job/WEhC1VBJABKBmtKR7yHOiM29d-ZktHZUgPAp8gUCk1xPCzn6Hb-Bdw?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Talent.com",
+                    "apply_link": "https://www.talent.com/view?id=997826122687&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "WhatJobs",
+                    "apply_link": "https://www.whatjobs.com/jobs/application-development?id=2425785543&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Jobright",
+                    "apply_link": "https://jobright.ai/jobs/info/698a74fec5761b521a99aea0?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "BeBee",
+                    "apply_link": "https://us.bebee.com/job/23fb41e56ea0ce801775338f3108f815?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "GrabJobs",
+                    "apply_link": "https://grabjobs.co/us/job/full-time/others/senior-fullstack-software-engineer-153854230?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "About Atonom\n\nAt Atonom.ai, we are defining the Autonomous Era by building the world’s first true \"Cloud Employees\", intelligent AI agents capable of executing complex work across Sales, Marketing, Support, and HR. We believe that growth should be limited only by ambition, not headcount. By moving beyond simple automation to genuine autonomy, we empower businesses to scale their workforce instantly and efficiently. Join us as we build the infrastructure for the next generation of work, where human creativity pairs with limitless machine execution to achieve the impossible.\n\nOn-site only: This position is not remote. You must be able to work from our Provo, Utah office during normal business hours (Monday–Friday). Occasional evenings or weekends may be needed for critical launches and go-lives.\n\nWhat you’ll do\n• Design, build, and scale production systems across the stack (frontend and backend) in order to power our AI conversation and workflow platform.\n• Lead architecture for microservices and event-driven systems while setting patterns for reliability, performance, and observability.\n• Ship high-quality, secure features from spec to production including API design, data modeling, code reviews, CI/CD, and instrumentation.\n• Collaborate with AI and Product teams to turn business problems into robust software that integrates prompts, automations, and guardrails.\n• Improve developer experience through testing strategies, build pipelines, documentation, and operational runbooks.\n• Mentor early and mid-career engineers while raising the bar on code quality and engineering excellence.\n• Partner with Customer Success during go-lives to ensure smooth deployments and capture learnings.\n\nWho you are\n• 12+ years of professional software engineering experience building and shipping production systems at scale.\n• Strong proficiency in JavaScript/TypeScript and a modern frontend framework (React, Vue, or similar) plus HTML/CSS and responsive design.\n• Backend expertise in Go, Rust, or Python (Go preferred) with a strong understanding of API design, concurrency, and performance tuning.\n• Deep experience with PostgreSQL including indexing, query optimization, and migrations with a pragmatic approach to data modeling.\n• Solid background in RESTful services, microservices architecture, and distributed systems.\n• Hands-on experience with Docker and containerized deployments; familiarity with Kubernetes is a plus.\n• Strong communicator who can explain tradeoffs to both technical and non-technical stakeholders.\n• Comfortable with ambiguity and motivated to deliver outcomes in a startup environment.\n\nWhy join\n• Real ownership of systems with direct customer impact.\n• A tight-knit team where your ideas can ship quickly.\n• Hands-on AI product work that delivers measurable outcomes.\n• Mentorship, career growth, and a clear path toward Staff or Principal roles.\n\nBenefits\n• Start building your PTO hours on day 1\n• Get access to a competitive health benefits package\n• Paid holidays and more",
+            "job_is_remote": false,
+            "job_posted_at": "6 days ago",
+            "job_posted_at_timestamp": 1770681600,
+            "job_posted_at_datetime_utc": "2026-02-10T00:00:00.000Z",
+            "job_location": "Provo, UT",
+            "job_city": "Provo",
+            "job_state": "Utah",
+            "job_country": "US",
+            "job_latitude": 40.233534899999995,
+            "job_longitude": -111.66697889999999,
+            "job_benefits": [
+                "paid_time_off",
+                "health_insurance"
+            ],
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D-gFljVToiwc2n2zZAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_min_salary": 110000,
+            "job_max_salary": 145000,
+            "job_salary_period": "YEAR",
+            "job_highlights": {
+                "Qualifications": [
+                    "12+ years of professional software engineering experience building and shipping production systems at scale",
+                    "Strong proficiency in JavaScript/TypeScript and a modern frontend framework (React, Vue, or similar) plus HTML/CSS and responsive design",
+                    "Deep experience with PostgreSQL including indexing, query optimization, and migrations with a pragmatic approach to data modeling",
+                    "Solid background in RESTful services, microservices architecture, and distributed systems",
+                    "Strong communicator who can explain tradeoffs to both technical and non-technical stakeholders",
+                    "Comfortable with ambiguity and motivated to deliver outcomes in a startup environment"
+                ],
+                "Benefits": [
+                    "Real ownership of systems with direct customer impact",
+                    "A tight-knit team where your ideas can ship quickly",
+                    "Hands-on AI product work that delivers measurable outcomes",
+                    "Mentorship, career growth, and a clear path toward Staff or Principal roles",
+                    "Start building your PTO hours on day 1",
+                    "Get access to a competitive health benefits package",
+                    "Paid holidays and more"
+                ],
+                "Responsibilities": [
+                    "You must be able to work from our Provo, Utah office during normal business hours (Monday–Friday)",
+                    "Occasional evenings or weekends may be needed for critical launches and go-lives",
+                    "Design, build, and scale production systems across the stack (frontend and backend) in order to power our AI conversation and workflow platform",
+                    "Lead architecture for microservices and event-driven systems while setting patterns for reliability, performance, and observability",
+                    "Ship high-quality, secure features from spec to production including API design, data modeling, code reviews, CI/CD, and instrumentation",
+                    "Collaborate with AI and Product teams to turn business problems into robust software that integrates prompts, automations, and guardrails",
+                    "Improve developer experience through testing strategies, build pipelines, documentation, and operational runbooks",
+                    "Mentor early and mid-career engineers while raising the bar on code quality and engineering excellence",
+                    "Partner with Customer Success during go-lives to ensure smooth deployments and capture learnings"
+                ]
+            },
+            "job_onet_soc": "15113300",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "YzhXS_5_AWq9sovmAAAAAA==",
+            "job_title": "Software/Principal Software Engineer Level 2/3",
+            "employer_name": "Northrop Grumman",
+            "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0guZ8n1kKZ_nu4eaicJ4PROiwjA-BfwwxOY7w&s=0",
+            "employer_website": "https://www.northropgrumman.com",
+            "job_publisher": "Jobs At Northrop Grumman",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://jobs.northropgrumman.com/careers/job/1340069506811-software-principal-software-engineer-level-2-3-united-states-utah-clearfield?domain=ngc.com&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": false,
+            "apply_options": [
+                {
+                    "publisher": "Jobs At Northrop Grumman",
+                    "apply_link": "https://jobs.northropgrumman.com/careers/job/1340069506811-software-principal-software-engineer-level-2-3-united-states-utah-clearfield?domain=ngc.com&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Indeed",
+                    "apply_link": "https://www.indeed.com/viewjob?jk=7dbd31fae450a766&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Jobright",
+                    "apply_link": "https://jobright.ai/jobs/info/698ab0ecc5761b521a9a019b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "ZipRecruiter",
+                    "apply_link": "https://www.ziprecruiter.com/c/Northrop-Grumman/Job/Software-Principal-Software-Engineer-Level-2-3/-in-Clearfield,UT?jid=576698084da64d94&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "Clearance Jobs",
+                    "apply_link": "https://www.clearancejobs.com/jobs/8749174/softwareprincipal-software-engineer-level-23?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Ladders",
+                    "apply_link": "https://www.theladders.com/job/software-principal-software-engineer-level-2-3-northropgrumman-clearfield-ut_85603117?ir=1&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "BeBee",
+                    "apply_link": "https://us.bebee.com/job/00b199e8d202e7deb00fe3a2227986df?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "LocalJobs.com",
+                    "apply_link": "https://www.localjobs.com/job/clearfield-ut-software-principal-software-engineer-level-2-3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "RELOCATION ASSISTANCE: Relocation assistance may be available\n\nCLEARANCE TYPE: Secret\n\nTRAVEL: Yes, 10% of the Time\n\nDescription\n\nAt Northrop Grumman, our employees have incredible opportunities to work on revolutionary systems that impact people's lives around the world today, and for generations to come. Our pioneering and inventive spirit has enabled us to be at the forefront of many technological advancements in our nation's history - from the first flight across the Atlantic Ocean, to stealth bombers, to landing on the moon. We look for people who have bold new ideas, courage and a pioneering spirit to join forces to invent the future, and have fun along the way. Our culture thrives on intellectual curiosity, cognitive diversity and bringing your whole self to work — and we have an insatiable drive to do what others think is impossible. Our employees are not only part of history, they're making history.\n\nNorthrop Grumman Aeronautic Systems (NGAS) is looking for a Software/Principal software Engineer Level 2/3 based out of Clearfield, UT.\n\nResponsibilities Include:\n• Coding & Development: Write clean, efficient, and maintainable code for websites and web apps.\n• Design Implementation: Translate designs from graphic designers into functional web pages, ensuring aesthetic appeal and usability.\n• SharePoint Website Development\n• Front end application development\n• Operational Tool Development: Design, develop, and maintain web applications that serve as the central nervous system for manufacturing groups, enabling the seamless dissemination of production goals and schedules.\n• Data Ingestion & Integration: Create intuitive interfaces and automated workflows to capture real-time data from manufacturing teams, ensuring accurate tracking of the production lifecycle.\n• Cross-Functional Collaboration: Partner directly with manufacturing stakeholders to translate complex operational needs into technical requirements, streamlining how teams coordinate efforts to meet delivery milestones.\n• SharePoint Ecosystem Management: Leverage SharePoint as a robust platform for information architecture, creating custom sites and lists that act as \"single sources of truth\" for production data.\n• Workflow Automation: Develop logic and automated triggers (using tools like Power Automate or Python) to reduce manual data entry and minimize communication gaps between manufacturing stages.\n• UI/UX for the Shop Floor: Implement clean, functional designs that prioritize ease of use for team members in high-paced manufacturing environments, ensuring high adoption and data accuracy.\n\nThis is a dual level opportunity. We are open to candidates that qualify for a level 2 or level 3.\n\nBasic Qualifications:\n\nSoftware Developer Level 2:\n• Bachelors in STEM field with Years 1 year of experience in the following fields: Software, Software Development, Systems, Data Science, Web, Data, Infrastructure, Game, Cloud, AI, Machine Learning, Database Development, Computer, Software Automation OR; Masters in STEM with 0 years of experience in mentioned fields.\n• 1 year of work experience any of the following: HTML, CSS, JavaScript.\n• Experience with Framework/Libraries.\n• Knowledge and experience with Python and SQL.\n• Ability to obtain and maintain DoD Clearance per company and or business needs.\n• Ability to obtain and maintain Special Program Access (PAR) per company and or business needs.\n\nPrincipal Software Developer Level 3:\n• Bachelors in STEM field with Years 4 year of experience in the following fields: Software, Software Development, Systems, Data Science, Web, Data, Infrastructure, Game, Cloud, AI, Machine Learning, Database Development, Computer, Software Automation OR; Masters in STEM with 3 years of experience in mentioned fields OR; PhD in STEM with 0 years of experience.\n• Experience with Framework/Libraries\n• Knowledge and experience with Python and SQL\n• Ability to get an Active Secret Clearance\n• Ability to obtain and maintain DoD Top Secret Clearance and Special Program Access\n\nPreferred Qualifications:\n• Proficiency in GTML, CSS, JavaScript\n• Proficiency with SQL and Python\n• Experience with SharePoint Online, Modern Sites, SharePoint Designer, and API integration.\n• Familiarity with Power Platform (Power Apps, Power Automate), Teams, and Azure.\n• Experience or working knowledge of Gy/Github, React, RoR\n• Excellent communication and organizational skills; strong interpersonal and analytic skills\n• Works well in a team-environment\n• Previous in-depth domain knowledge of program software design and code preferred\n• Familiarity with XML and XML schemas\n\nPrimary Level Salary Range: $72,100.00 - $108,100.00\n\nSecondary Level Salary Range: $89,400.00 - $134,200.00\n\nThe above salary range represents a general guideline; however, Northrop Grumman considers a number of factors when determining base salary offers such as the scope and responsibilities of the position and the candidate's experience, education, skills and current market conditions.\n\nDepending on the position, employees may be eligible for overtime, shift differential, and a discretionary bonus in addition to base pay. Annual bonuses are designed to reward individual contributions as well as allow employees to share in company results. Employees in Vice President or Director positions may be eligible for Long Term Incentives. In addition, Northrop Grumman provides a variety of benefits including health insurance coverage, life and disability insurance, savings plan, Company paid holidays and paid time off (PTO) for vacation and/or personal business.\n\nThe application period for the job is estimated to be 20 days from the job posting date. However, this timeline may be shortened or extended depending on business needs and the availability of qualified candidates.\n\nNorthrop Grumman is an Equal Opportunity Employer, making decisions without regard to race, color, religion, creed, sex, sexual orientation, gender identity, marital status, national origin, age, veteran status, disability, or any other protected class. For our complete EEO and pay transparency statement, please visit http://www.northropgrumman.com/EEO. U.S. Citizenship is required for all positions with a government clearance and certain other restricted positions.",
+            "job_is_remote": false,
+            "job_posted_at": "7 days ago",
+            "job_posted_at_timestamp": 1770595200,
+            "job_posted_at_datetime_utc": "2026-02-09T00:00:00.000Z",
+            "job_location": "Clearfield, UT",
+            "job_city": "Clearfield",
+            "job_state": "Utah",
+            "job_country": "US",
+            "job_latitude": 41.1107771,
+            "job_longitude": -112.0260538,
+            "job_benefits": [
+                "health_insurance",
+                "dental_coverage",
+                "paid_time_off"
+            ],
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DYzhXS_5_AWq9sovmAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {
+                "Qualifications": [
+                    "We are open to candidates that qualify for a level 2 or level 3",
+                    "Bachelors in STEM field with Years 1 year of experience in the following fields: Software, Software Development, Systems, Data Science, Web, Data, Infrastructure, Game, Cloud, AI, Machine Learning, Database Development, Computer, Software Automation OR; Masters in STEM with 0 years of experience in mentioned fields",
+                    "1 year of work experience any of the following: HTML, CSS, JavaScript",
+                    "Experience with Framework/Libraries",
+                    "Knowledge and experience with Python and SQL",
+                    "Ability to obtain and maintain DoD Clearance per company and or business needs",
+                    "Ability to obtain and maintain Special Program Access (PAR) per company and or business needs",
+                    "Bachelors in STEM field with Years 4 year of experience in the following fields: Software, Software Development, Systems, Data Science, Web, Data, Infrastructure, Game, Cloud, AI, Machine Learning, Database Development, Computer, Software Automation OR; Masters in STEM with 3 years of experience in mentioned fields OR; PhD in STEM with 0 years of experience",
+                    "Experience with Framework/Libraries",
+                    "Knowledge and experience with Python and SQL",
+                    "Ability to get an Active Secret Clearance",
+                    "Ability to obtain and maintain DoD Top Secret Clearance and Special Program Access"
+                ],
+                "Benefits": [
+                    "Primary Level Salary Range: $72,100.00 - $108,100.00",
+                    "Secondary Level Salary Range: $89,400.00 - $134,200.00",
+                    "The above salary range represents a general guideline; however, Northrop Grumman considers a number of factors when determining base salary offers such as the scope and responsibilities of the position and the candidate's experience, education, skills and current market conditions",
+                    "Depending on the position, employees may be eligible for overtime, shift differential, and a discretionary bonus in addition to base pay",
+                    "Annual bonuses are designed to reward individual contributions as well as allow employees to share in company results",
+                    "Employees in Vice President or Director positions may be eligible for Long Term Incentives",
+                    "In addition, Northrop Grumman provides a variety of benefits including health insurance coverage, life and disability insurance, savings plan, Company paid holidays and paid time off (PTO) for vacation and/or personal business"
+                ],
+                "Responsibilities": [
+                    "TRAVEL: Yes, 10% of the Time",
+                    "Coding & Development: Write clean, efficient, and maintainable code for websites and web apps",
+                    "Design Implementation: Translate designs from graphic designers into functional web pages, ensuring aesthetic appeal and usability",
+                    "SharePoint Website Development",
+                    "Front end application development",
+                    "Operational Tool Development: Design, develop, and maintain web applications that serve as the central nervous system for manufacturing groups, enabling the seamless dissemination of production goals and schedules",
+                    "Data Ingestion & Integration: Create intuitive interfaces and automated workflows to capture real-time data from manufacturing teams, ensuring accurate tracking of the production lifecycle",
+                    "Cross-Functional Collaboration: Partner directly with manufacturing stakeholders to translate complex operational needs into technical requirements, streamlining how teams coordinate efforts to meet delivery milestones",
+                    "SharePoint Ecosystem Management: Leverage SharePoint as a robust platform for information architecture, creating custom sites and lists that act as \"single sources of truth\" for production data",
+                    "Workflow Automation: Develop logic and automated triggers (using tools like Power Automate or Python) to reduce manual data entry and minimize communication gaps between manufacturing stages",
+                    "UI/UX for the Shop Floor: Implement clean, functional designs that prioritize ease of use for team members in high-paced manufacturing environments, ensuring high adoption and data accuracy"
+                ]
+            },
+            "job_onet_soc": "15113200",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "Ph7pqHsb9sxzUDsVAAAAAA==",
+            "job_title": "Backend Software Engineer - MLOps & Cloud Infrastructure",
+            "employer_name": "Spot Parking",
+            "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmo2kXA2sySztxXCnTkT8xc0HGN2vSeUEG53Ta&s=0",
+            "employer_website": "https://www.spotparking.app",
+            "job_publisher": "LinkedIn",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://www.linkedin.com/jobs/view/backend-software-engineer-mlops-cloud-infrastructure-at-spot-parking-4371304718?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": false,
+            "apply_options": [
+                {
+                    "publisher": "LinkedIn",
+                    "apply_link": "https://www.linkedin.com/jobs/view/backend-software-engineer-mlops-cloud-infrastructure-at-spot-parking-4371304718?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Jobright",
+                    "apply_link": "https://jobright.ai/jobs/info/698d23a078b4502f12a3ae31?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Learn4Good",
+                    "apply_link": "https://www.learn4good.com/jobs/lehi/utah/software_development/4823404352/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "Position Summary\n\nLocation: Lehi, Utah - In Person\n\nBasis: Full-Time\n\nSalary: $100,000\n\nAbout Spot Parking\n\nSpot Parking is building next generation parking infrastructure powered by computer vision and real time data. We deploy network cameras, run ML inference at scale, and transform raw video into actionable enforcement and analytics systems.\n\nWe operate fast, ship often, and solve hard infrastructure problems that sit at the intersection of edge devices, cloud compute, and applied machine learning.\n\nThe Role\n\nWe are hiring a Backend Engineer focused on MLOps and Cloud Infrastructure. You will own critical backend systems that deploy, serve, scale, support, and monitor our computer vision models.\n\nYou will design and build core infrastructure that directly impacts performance, reliability, and cost at scale.\n\nYou should be highly autonomous, comfortable making decisions, and excited about solving new and ambiguous technical problems.\n\nWhat You’ll Be Doing\n• Building and maintaining data pipelines between network cameras, databases, and inference clusters\n• Deploying and scaling ML models across AWS compute environments\n• Designing and optimizing backend services and APIs\n• Implementing deployment workflows, validation systems, and load testing\n• Optimizing compute cost across AWS infrastructure\n• Dockerizing services and deploying containerized workloads\n• Improving CI/CD workflows and deployment automation\n\nMinimum Qualifications\n• 3+ years of industry experience in backend, cloud, or MLOps roles\n• Authorized to work in the United States\n• Located in or near Lehi, UT or willing to relocate\n• Deep understanding of AWS and cloud compute architecture\n• Strong Python experience\n• FastAPI\n• SQLAlchemy\n• Boto3\n• Comfortable working with AI tools and leveraging them to move faster\n• Self-motivated and able to work quickly and autonomously\n\nPreferred Qualifications\n• Terraform or other Infrastructure as Code experience\n• CI/CD and automated testing experience (i.e. GitHub Actions)\n• Docker and Kubernetes experience\n• Experience deploying and monitoring production ML systems",
+            "job_is_remote": false,
+            "job_posted_at": "4 days ago",
+            "job_posted_at_timestamp": 1770854400,
+            "job_posted_at_datetime_utc": "2026-02-12T00:00:00.000Z",
+            "job_location": "Lehi, UT",
+            "job_city": "Lehi",
+            "job_state": "Utah",
+            "job_country": "US",
+            "job_latitude": 40.3916172,
+            "job_longitude": -111.8507662,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DPh7pqHsb9sxzUDsVAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {
+                "Qualifications": [
+                    "You should be highly autonomous, comfortable making decisions, and excited about solving new and ambiguous technical problems",
+                    "3+ years of industry experience in backend, cloud, or MLOps roles",
+                    "Authorized to work in the United States",
+                    "Located in or near Lehi, UT or willing to relocate",
+                    "Deep understanding of AWS and cloud compute architecture",
+                    "Strong Python experience",
+                    "FastAPI",
+                    "SQLAlchemy",
+                    "Boto3",
+                    "Comfortable working with AI tools and leveraging them to move faster",
+                    "Self-motivated and able to work quickly and autonomously",
+                    "GitHub Actions)",
+                    "Docker and Kubernetes experience",
+                    "Experience deploying and monitoring production ML systems"
+                ],
+                "Benefits": [
+                    "Salary: $100,000"
+                ],
+                "Responsibilities": [
+                    "You will own critical backend systems that deploy, serve, scale, support, and monitor our computer vision models",
+                    "You will design and build core infrastructure that directly impacts performance, reliability, and cost at scale",
+                    "Building and maintaining data pipelines between network cameras, databases, and inference clusters",
+                    "Deploying and scaling ML models across AWS compute environments",
+                    "Designing and optimizing backend services and APIs",
+                    "Implementing deployment workflows, validation systems, and load testing",
+                    "Optimizing compute cost across AWS infrastructure",
+                    "Dockerizing services and deploying containerized workloads",
+                    "Improving CI/CD workflows and deployment automation"
+                ]
+            },
+            "job_onet_soc": "15111100",
+            "job_onet_job_zone": "5"
+        },
+        {
+            "job_id": "dLeVAVErza2imaoAAAAAAA==",
+            "job_title": "C#/.net Full-Stack Developer",
+            "employer_name": "Gravity IT Resources",
+            "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAW8cQfUs19wBvb1GVGuzNFmUInPQCT_Zt79E8&s=0",
+            "employer_website": "https://www.gravityitresources.com",
+            "job_publisher": "Gravity IT Resources",
+            "job_employment_type": "Contractor",
+            "job_employment_types": [
+                "CONTRACTOR"
+            ],
+            "job_apply_link": "https://www.gravityitresources.com/job/8886-c-net-full-stack-developer-salt-lake-cith-utah/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": true,
+            "apply_options": [
+                {
+                    "publisher": "Gravity IT Resources",
+                    "apply_link": "https://www.gravityitresources.com/job/8886-c-net-full-stack-developer-salt-lake-cith-utah/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "OPTnation",
+                    "apply_link": "https://www.optnation.com/technology-developer-job-in-beehive-state-view-jobid-30313?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Tech Jobs Personalized",
+                    "apply_link": "https://builtin.com/job/bi-developer-iii/8399383?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Teal",
+                    "apply_link": "https://www.tealhq.com/job/powersports-product-developer_7ea1ad7f24f134563fa0cb14ac845394bd32e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Computer Measurement Jobs - Computer Measurement Group",
+                    "apply_link": "https://jobs.cmg.org/job/as400-application-developer/81995920/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "SimplyHired",
+                    "apply_link": "https://www.simplyhired.com/job/r1puvULYFTVDDis84wHnIG9RdpC-LPl7DWdb9Bj4iWyVU2ayV2tGzA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Adzuna",
+                    "apply_link": "https://www.adzuna.com/details/5624502358?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Women For Hire- Job Board",
+                    "apply_link": "https://jobs.womenforhire.com/job/usa/mount-olympus-ut/forgerock-developer-588688/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "To Apply for this Job Click Here\n\nJob Title: Sr. C#/.net Developer – full-stack\n\nLocation: Remote (LATAM)\n\nJob-Type: Contract\n\nSalary Range: $5,000 – $6,000/month\n\nPosition Overview:\n\nWe are seeking a contract Senior C#/.NET Developer to support a growing life insurance and financial services organization. This role will contribute to both maintenance of existing systems and strategic enhancement initiatives, with potential opportunities to work on greenfield applications. The ideal candidate is a strong communicator, highly reliable, and comfortable working in a structured, iterative hybrid (waterfall/agile) delivery environment.\n\nDuties & Responsibilities:\n• Maintain and enhance existing .NET-based applications (“keep the lights on”)\n• Contribute to strategic projects, including new features and modernization efforts\n• Participate in iterative development cycles with clearly defined deliverables\n• Collaborate in daily stand-ups (typically 9–10am MT) and cross-functional planning sessions\n• Support production releases and assist with incident response when needed\n• Develop customer-facing applications with a focus on user experience and internal full-stack systems\n\nRequired Experience & Skills:\n• 5+ years of hands-on experience with C#/.NET\n• Full-stack development experience\n• Experience with Python/Django\n• Experience with React and/or Angular\n• Effective communication skills and ability to work independently in a remote environment\n\nTo Apply for this Job Click Here\n\nEqual Employment Opportunity Statement\n\nGravity IT Resources is an Equal Opportunity Employer. We are committed to creating an inclusive environment for all employees and applicants. We do not discriminate on the basis of race, color, religion, sex (including pregnancy, sexual orientation, or gender identity), national origin, age, disability, genetic information, veteran status, or any other legally protected characteristic. All employment decisions are based on qualifications, merit, and business needs.",
+            "job_is_remote": false,
+            "job_posted_at": "3 days ago",
+            "job_posted_at_timestamp": 1770940800,
+            "job_posted_at_datetime_utc": "2026-02-13T00:00:00.000Z",
+            "job_location": "Utah",
+            "job_city": null,
+            "job_state": "Utah",
+            "job_country": "US",
+            "job_latitude": 40.7606608,
+            "job_longitude": -111.8939487,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DdLeVAVErza2imaoAAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {
+                "Qualifications": [
+                    "5+ years of hands-on experience with C#/.NET",
+                    "Full-stack development experience",
+                    "Experience with Python/Django",
+                    "Experience with React and/or Angular",
+                    "Effective communication skills and ability to work independently in a remote environment"
+                ],
+                "Benefits": [
+                    "Salary Range: $5,000 – $6,000/month"
+                ],
+                "Responsibilities": [
+                    "This role will contribute to both maintenance of existing systems and strategic enhancement initiatives, with potential opportunities to work on greenfield applications",
+                    "The ideal candidate is a strong communicator, highly reliable, and comfortable working in a structured, iterative hybrid (waterfall/agile) delivery environment",
+                    "Maintain and enhance existing .NET-based applications (“keep the lights on”)",
+                    "Contribute to strategic projects, including new features and modernization efforts",
+                    "Participate in iterative development cycles with clearly defined deliverables",
+                    "Collaborate in daily stand-ups (typically 9–10am MT) and cross-functional planning sessions",
+                    "Support production releases and assist with incident response when needed",
+                    "Develop customer-facing applications with a focus on user experience and internal full-stack systems"
+                ]
+            },
+            "job_onet_soc": "15113200",
+            "job_onet_job_zone": "4"
+        },
+        {
+            "job_id": "qJRqxeKK8AC_NjfCAAAAAA==",
+            "job_title": "Web Developer",
+            "employer_name": "Kadince",
+            "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4yVKQiPdqmjYac0qwvtECtjb0NOnCp36uBQ98&s=0",
+            "employer_website": "https://www.kadince.com",
+            "job_publisher": "ZipRecruiter",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://www.ziprecruiter.com/c/Kadince/Job/Web-Developer/-in-Ogden,UT?jid=c0ef5ed2ea3a8447&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": true,
+            "apply_options": [
+                {
+                    "publisher": "ZipRecruiter",
+                    "apply_link": "https://www.ziprecruiter.com/c/Kadince/Job/Web-Developer/-in-Ogden,UT?jid=c0ef5ed2ea3a8447&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "SimplyHired",
+                    "apply_link": "https://www.simplyhired.com/job/mEOoSa-pj8uvHg4AfX67h026aPDkad0pypecB_QFPF9KkrGOvUXSQA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Lensa",
+                    "apply_link": "https://lensa.com/job-v1/kadince/ogden-ut/web-developer/80f6b97de39f6bb514e78841e2061c3d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "BeBee",
+                    "apply_link": "https://us.bebee.com/job/f2d4ee35e8d40be449752d65d62acb86?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Career.com",
+                    "apply_link": "https://www.career.com/job/kadince/web-developer/j202210061716296624837?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Jobilize",
+                    "apply_link": "https://www.jobilize.com/job/us-ut-ogden-web-developer-rise25-hiring-now-job-immediately-opening?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Ecommerce Jobs At Top D2C Brands",
+                    "apply_link": "https://ecomjobs.ai/jobs/web-developer-4331965035?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                }
+            ],
+            "job_description": "About Kadince\n\nKadince (pronounced cadence) is a fully remote (must live in the USA) software company founded in 2013. In a nutshell, we build tools to help compliance and marketing professionals at financial institutions do their jobs more efficiently.\n\nKadince has been profitable for several years (we're fans of making more than we spend). We're bootstrapped, which means we don't have investors. So our owners answer to no one. And they aren't just giving us commands from their vacation homes waiting to cash their next check. They're fellow team members and in the trenches with us.\n\nWhy We're Hiring\n\nAfter our team members, our customers are our most important focus. As our customer base grows, so does our team. We're dedicated to giving each customer the best experience possible, which means having enough people to take care of all their needs. We're growing quickly and so are the needs of our customers. That's why we're increasing the size of our development team.\n\nWho We Want to Hire\n\nTo be a web developer at Kadince we prefer you have 5+ years of experience. This experience has given you an understanding of basic database driven web applications and a proficient knowledge of the MVC pattern. You understand that software development is all about the end-user (again, we really care about our customers).\n\nYou have a desire to continually learn and improve your development skills. We love giving team members opportunities to improve their skills, whether through online courses, workshops, or learning from others.\n\nYou're able to adapt quickly to new environments, are organized and focused, can look beyond current constraints (you know, forest through the trees), and can provide solutions to complex problems. Simply put, we need a problem solver, not a taskmaster.\n\nOur vision, mission, and core values should resonate with you. That'll be crucial to your success and happiness if you join the Kadince team.\n\nLet's Geek Out\n\nIf you're geeky like our dev team (hopefully you are), you probably want to know more about our tech-stack. Outside of our dev team, we're not really sure what most of this means, but we sure hope you do.\n\nTechnologies/Frameworks\n• Ruby on Rails\n• GraphQL\n• Postgres\n• Redis\n• ReactJS\n• Minitest\n• Cypress\n\nDevOps\n• Kubernetes\n• Helm\n• Docker\n• CircleCI\n\nOther Tools\n• Jira\n• Rubymine\n• Sentry\n• Logrocket\n• Wooly Bugger\n\nOur Vision and Mission\n\nOur vision and mission aren't something we hung on the office wall and forgot about. Seriously, we don't have an office, let alone a wall to hang them on. But our vision, mission, and core values sit on the desks of each of our team members. And we discuss them regularly in our meetings. Your goals and Key Performance Indicator (KPI) will be developed to ensure you're working to help us achieve our vision and mission.\n\nOur vision and mission are what get us up each morning. They, in addition to our core values, help us make decisions.\n\nVision - Setting the standard for operating a great software company.\n\nWe're big fans of author Jim Collins and his best-selling book, Good to Great (bonus points if you've read it). While there are lots of good software companies out there, we want to be one of the great ones.\n\nThe first word of our vision is also significant. To go \"high school English class\" on you, the present participle \"setting\" illustrates that we're not looking to set the standard and then be done, but that the standard is always moving and we're always chasing it. We continually stop to recognize the awesome things we've done and then look for ways to do them even better.\n\nMission - Building the best software for compliance and marketing professionals at financial institutions.\n\nAs Jim Collins taught in his Hedgehog Concept (told you we think he's great-pun intended), great companies need to determine what they can be the best at in the world and focus on that. There are so many things we could solve as a software company, but we've found what we think we can be the best in the world at and we stick to it every day.\n\nOur Core Values\n\nOur core values remind us who we are. They also guide us in the decisions we make. They're listed in order of importance. If we have a question when making a decision about people, for example, we look to the core value above it to make our decision.\n• Integrity - We're honest with ourselves and others.\n• People - We understand that people are the foundation of Kadince and we act accordingly.\n• Care - We love what we do and do it consistently and intentionally to the best of our abilities.\n• Remarkability - We provide remarkable experiences to all who come into contact with Kadince.\n• Growth - We accept yesterday and improve today.\n\nWhat a Day in the Life of a Web Developer Looks Like\n\nYour day starts with a development team meeting where you go through announcements, sync up projects, and discuss any potential issues. After the meeting, you put your head down and work on your assigned tickets in Jira.\n\nYou spend the first part of the day reviewing your notes and prioritizing tasks for the junior developers. You make sure that you and the other developers are working on the most important tasks first, but you're free to choose which ones you work on.\n\nFor lunch, you meet a friend at the cafe near his work. You haven't seen your friend for a few months, so you talk about life and your careers. You can't help but feel very lucky for the freedom you have to take a long lunch break and meet your friend, as he has to hurry back to the office and get working right at the hour.\n\nBack at home, you continue working on tickets in Jira. At one point a junior web developer calls you on Slack and asks how to fix an issue. You expertly show him the process and he thanks you for being so helpful.\n\nYou notice that another developer has been really on top of it today, so you mention them in the company Slack channel and thank them for being so awesome. Many of your team members respond to your shoutout with party emojis and hearts.\n\nIn the afternoon your team has a standup meeting where you discuss what projects you're all working on and whether there's anything anyone can do to help. Your leader points out one of the awesome projects you're working on and thanks you for being so attentive to the users' needs.\n\nAfter the standup you do some QA and manually test a couple of the changes your team made today. You write automated tests to ensure the functionality that was just worked on. You find one little bug, which you log and then fix easily.\n\nYou finish up your day by taking a look at tomorrow's schedule and planning accordingly.\n\nWhen and Where You'd Work and What You'd Work On\n\nKadince is a principle-based company, which means we focus on principles, not policies. You'll work with your leader, Aaron Venezia, each week to review your goals/KPI and what you've been working on. You'll meet regularly with the Development team to learn, keep projects on track, and ensure that goals/KPIs are being reached.\n\nWhile we aren't super particular about when and where you work, you'll need to work around the schedules of other team members to ensure that goals stay on track and nothing falls through the cracks. Overall, your schedule needs to help you achieve our vision and mission and demonstrate our core values. After all, this is a full-time job, and we treat it that way!\n\nAt Kadince, work won't tie you down to one location. You'll be free to travel or relocate as you get the itch to try somewhere new. Want to spend a month abroad, working from a hotel and exploring the rest of the time? Go ahead. Just make sure you have a reliable high-speed internet connection (as if you would go anywhere without it anyway) and turn on the blurry filter during video calls so we don't get jealous. We seriously get jealous. One of our teammates recently had zebras running around in the background of a video call during a team meeting. Come to find out he was working from the deck of his hotel at the Animal Kingdom in Disney World. Even though we were jealous, we thought it was pretty cool.\n\nWho You'd Be Working With\n\nWe have over 50 team members (which makes us really happy since Kadince was started by two people in their basements). If hired, you'll probably work with each team member in one way or another. Some of the people you'll work with most frequently are:\n\nAaron makes sure that Kadince software runs smoothly and that any problems are addressed quickly and efficiently. When it comes to software wizards, he's the Dumbledore of web developers (but really, he wishes he was Voldemort). He's been here since nearly the beginning of Kadince, so he's seen it all. Aaron loves to go skiing and mountain biking, as well as play video games and pinball (can you beat him?). He's very proud of the fact that he's his tiny dog's favorite person, and he has a strange passion for curly fries.\n\nBernardo (better known around here as Beans) has been a web developer at Kadince since 2014. He's originally from Chile, but has lived in Utah since he was 12. He loves to code, play video games, spend time with his wife, kids, and dogs. He also loves to learn new things. If he could do anything in the world he would go to space (although technically that's not in this world, now is it?).\n\nLuis is a senior web developer and has worked for Kadince since 2019. He likes to hike, run, and be outdoors. Luis is fun and gets along with everyone, so feel free to joke around and have a good time. Just don't play Rocket League with him. He WILL beat you. Actually, do play, lots of the other developers do. And if you're lucky, he might share his grandma's tamales with you.\n\nBenefits\n\nSince we're a remote company, we don't offer office snacks and ping pong tables. But if you're a fan of \"core benefits\" that bring great rewards and peace of mind, you'll like what we have to offer. Competitive pay, 401(k) matching, generous paid leave, insurance (medical, dental, vision, life, short-term disability), and a flex spending account. Yeah, it's pretty great...\n\nAnd we love to spoil our team. We celebrate big events with you, like birthdays and work anniversaries, so you can expect some pretty fun gifts. We once sent some high-quality lip balm to each team member so we could all play a prank on Scott, our Director of Product. We're fun like that. And this year we're giving every team member the last week of the year off (we like to spread holiday cheer).\n\nHow to Apply\n\nApplicants who stand out are those who are interested in working for Kadince, not just applying for as many positions as possible or trying to keep unemployment benefits. We've seen it all. No kidding, we once had someone ask us in an interview what the name of our company is. Needless to say, we could tell that person wasn't really passionate about joining our team.\n\nWhen applying to Kadince, please send us a PDF of your resume. The questions below are your opportunity to tell us why you would be a great fit for the position. Take advantage of this time. Seriously, sell yourself!\n\nThank you for your interest in Kadince. We look forward to reviewing your application.\n\nThis position is open to candidates living in AL, AK, AZ, AR, CT, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, NE, NV, NH, NM, NC, ND, OH, OK, PA, RI, SC, SD, TN, TX, UT, VT, VA, WV, WI, and WY.\n\nKadince, Inc. is an Equal Employment Opportunity Employer.",
+            "job_is_remote": false,
+            "job_posted_at": null,
+            "job_posted_at_timestamp": null,
+            "job_posted_at_datetime_utc": null,
+            "job_location": "Ogden, UT",
+            "job_city": "Ogden",
+            "job_state": "Utah",
+            "job_country": "US",
+            "job_latitude": 41.2185625,
+            "job_longitude": -111.97050999999999,
+            "job_benefits": [
+                "paid_time_off",
+                "dental_coverage",
+                "health_insurance"
+            ],
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DqJRqxeKK8AC_NjfCAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_min_salary": 70000,
+            "job_max_salary": 120000,
+            "job_salary_period": "YEAR",
+            "job_highlights": {
+                "Qualifications": [
+                    "To be a web developer at Kadince we prefer you have 5+ years of experience",
+                    "This experience has given you an understanding of basic database driven web applications and a proficient knowledge of the MVC pattern",
+                    "You have a desire to continually learn and improve your development skills",
+                    "Ruby on Rails",
+                    "ReactJS",
+                    "You haven't seen your friend for a few months, so you talk about life and your careers",
+                    "He loves to code, play video games, spend time with his wife, kids, and dogs",
+                    "He also loves to learn new things",
+                    "He likes to hike, run, and be outdoors"
+                ],
+                "Benefits": [
+                    "At Kadince, work won't tie you down to one location",
+                    "You'll be free to travel or relocate as you get the itch to try somewhere new",
+                    "Since we're a remote company, we don't offer office snacks and ping pong tables",
+                    "Competitive pay, 401(k) matching, generous paid leave, insurance (medical, dental, vision, life, short-term disability), and a flex spending account",
+                    "Yeah, it's pretty great..",
+                    "We celebrate big events with you, like birthdays and work anniversaries, so you can expect some pretty fun gifts"
+                ],
+                "Responsibilities": [
+                    "Kubernetes",
+                    "Jira",
+                    "Rubymine",
+                    "Your goals and Key Performance Indicator (KPI) will be developed to ensure you're working to help us achieve our vision and mission",
+                    "Your day starts with a development team meeting where you go through announcements, sync up projects, and discuss any potential issues",
+                    "After the meeting, you put your head down and work on your assigned tickets in Jira",
+                    "You spend the first part of the day reviewing your notes and prioritizing tasks for the junior developers",
+                    "You make sure that you and the other developers are working on the most important tasks first, but you're free to choose which ones you work on",
+                    "For lunch, you meet a friend at the cafe near his work",
+                    "Back at home, you continue working on tickets in Jira",
+                    "At one point a junior web developer calls you on Slack and asks how to fix an issue",
+                    "You expertly show him the process and he thanks you for being so helpful",
+                    "In the afternoon your team has a standup meeting where you discuss what projects you're all working on and whether there's anything anyone can do to help",
+                    "Your leader points out one of the awesome projects you're working on and thanks you for being so attentive to the users' needs",
+                    "After the standup you do some QA and manually test a couple of the changes your team made today",
+                    "You write automated tests to ensure the functionality that was just worked on",
+                    "You find one little bug, which you log and then fix easily",
+                    "You finish up your day by taking a look at tomorrow's schedule and planning accordingly",
+                    "You'll work with your leader, Aaron Venezia, each week to review your goals/KPI and what you've been working on",
+                    "You'll meet regularly with the Development team to learn, keep projects on track, and ensure that goals/KPIs are being reached",
+                    "While we aren't super particular about when and where you work, you'll need to work around the schedules of other team members to ensure that goals stay on track and nothing falls through the cracks",
+                    "Overall, your schedule needs to help you achieve our vision and mission and demonstrate our core values",
+                    "If hired, you'll probably work with each team member in one way or another",
+                    "Aaron makes sure that Kadince software runs smoothly and that any problems are addressed quickly and efficiently",
+                    "He WILL beat you",
+                    "Actually, do play, lots of the other developers do"
+                ]
+            },
+            "job_onet_soc": "15113400",
+            "job_onet_job_zone": "3"
+        },
+        {
+            "job_id": "yGfCVhk2O_RqhYVMAAAAAA==",
+            "job_title": "Web developer",
+            "employer_name": "Clever Coding",
+            "employer_logo": null,
+            "employer_website": "https://www.clevercoding.com",
+            "job_publisher": "Indeed",
+            "job_employment_type": "Full-time",
+            "job_employment_types": [
+                "FULLTIME"
+            ],
+            "job_apply_link": "https://www.indeed.com/viewjob?jk=66cd8a4e9f263bd1&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+            "job_apply_is_direct": false,
+            "apply_options": [
+                {
+                    "publisher": "Indeed",
+                    "apply_link": "https://www.indeed.com/viewjob?jk=66cd8a4e9f263bd1&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "ZipRecruiter",
+                    "apply_link": "https://www.ziprecruiter.com/c/Vasion/Job/Lead-UI-UX-Designer,-Web/-in-Lehi,UT?jid=9487cecd915de15f&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "Monster",
+                    "apply_link": "https://www.monster.com/job-openings/lead-ui-ux-designer-web-lehi-ut--20f82757-0baf-46bc-be27-123fd08c67a9?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": true
+                },
+                {
+                    "publisher": "Glassdoor",
+                    "apply_link": "https://www.glassdoor.com/job-listing/web-developer-clever-coding-JV_IC1128238_KO0,13_KE14,27.htm?jl=1008087734252&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Talents By Vaia",
+                    "apply_link": "https://talents.vaia.com/companies/vasion/lehi/lead-ui-ux-designer-web-67880699/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "SimplyHired",
+                    "apply_link": "https://www.simplyhired.com/job/84u1jF9xnJUSlbFVmH82Rjdw8EmMS5TWxWEXk_pBrC2rD4rcFCEOoA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Jobted",
+                    "apply_link": "https://www.jobted.com/job/a585bcb5f11d7450435e570efb5824b1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                },
+                {
+                    "publisher": "Learn4Good",
+                    "apply_link": "https://www.learn4good.com/jobs/lehi/utah/info_technology/4820228511/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+                    "is_direct": false
+                }
+            ],
+            "job_description": "We are currently looking for experienced Web Developers to join our team. Most of our projects are built on a LAMP stack running in the cloud. Preference will be given to someone with strong PHP skills along with strong front end skills with the ability to turn designs into html/css.",
+            "job_is_remote": false,
+            "job_posted_at": null,
+            "job_posted_at_timestamp": null,
+            "job_posted_at_datetime_utc": null,
+            "job_location": "Lehi, UT",
+            "job_city": "Lehi",
+            "job_state": "Utah",
+            "job_country": "US",
+            "job_latitude": 40.3916172,
+            "job_longitude": -111.8507662,
+            "job_benefits": null,
+            "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DyGfCVhk2O_RqhYVMAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+            "job_salary": null,
+            "job_min_salary": null,
+            "job_max_salary": null,
+            "job_salary_period": null,
+            "job_highlights": {
+                "Qualifications": [
+                    "Preference will be given to someone with strong PHP skills along with strong front end skills with the ability to turn designs into html/css"
+                ]
+            },
+            "job_onet_soc": "15113400",
+            "job_onet_job_zone": "3"
+        }
+    ]
+}

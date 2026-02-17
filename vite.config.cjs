@@ -3,6 +3,9 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   root: "src/",
+  // Load .env from project root (not src/) so VITE_* vars resolve correctly.
+  envDir: resolve(__dirname, "."),
+  publicDir: "public",
   preview: {
     allowedHosts: true,
   },
