@@ -118,7 +118,8 @@ dialog{
   border: var(--border-medium) solid var(--border-strong);
   border-radius: var(--radius);
   max-width: 900px;
-  
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) var(--bg-card-inner);
   & ul{
     list-style: none;
   }

@@ -57,6 +57,18 @@ function getJobSources(job) {
     .filter(Boolean);
 }
 
+function groupJobsBySource(allJobs) {
+  const jobsBySource = new Map();
+  allJobs.forEach((job) => {
+    getJobSources(job).forEach((source) => {
+      const existing = jobsBySource.get(source) || [];
+      existing.push(job);
+      jobsBySource.set(source, existing);
+    });
+  });
+  return jobsBySource;
+}
+
 function ensureListMount(source) {
   if (!listsRoot) return null;
   const key = sourceKey(source);
@@ -71,55 +83,30 @@ function ensureListMount(source) {
   return mount;
 }
 
+async function renderSourceLists(jobsBySource) {
+  const sources = Array.from(jobsBySource.keys());
+  for (const source of sources) {
+    const element = ensureListMount(source);
+    if (!element) continue;
+
+    const jobsList = new JobList(source, dataSource, element);
+    const mappedJobs = await jobsList.init(jobsBySource.get(source) || []);
+    mappedJobs.forEach((job, jobId) => jobsById.set(jobId, job));
+  }
+}
+
 // Load each source list and merge source-level maps into page-level jobsById.
 async function initJobsPage() {
   const allJobs = await dataSource.getData();
-  const jobsBySource = new Map();
-
-  allJobs.forEach((job) => {
-    getJobSources(job).forEach((source) => {
-      const existing = jobsBySource.get(source) || [];
-      existing.push(job);
-      jobsBySource.set(source, existing);
-    });
-  });
-
-  const allSources = Array.from(jobsBySource.keys());
+  const jobsBySource = groupJobsBySource(allJobs);
+  jobsById.clear();
 
   if (listsRoot) {
     listsRoot.innerHTML = "";
   }
 
-  for (const source of allSources) {
-    const element = ensureListMount(source);
-    if (!element) continue;
-
-    const jobsList = new JobList(source, dataSource, element);
-    // Render one section at a time to show content as soon as possible.
-    const mappedJobs = await jobsList.init(jobsBySource.get(source) || []);
-    // Merge map entries for global modal lookup.
-    mappedJobs.forEach((job, jobId) => jobsById.set(jobId, job));
-  }
-
-  // DevTools helper for verifying cache writes/reads.
-  if (typeof window !== "undefined") {
-    const storageKey = dataSource.getStorageKey();
-    const raw = window.localStorage.getItem(storageKey);
-    let cachedCount = 0;
-    try {
-      const parsed = JSON.parse(raw || "[]");
-      cachedCount = Array.isArray(parsed) ? parsed.length : 0;
-    } catch {
-      cachedCount = 0;
-    }
-    window.jobsDebug = {
-      storageKey,
-      cachedRaw: raw,
-      cachedCount,
-      renderedCount: jobsById.size,
-    };
-    console.log("Jobs debug:", window.jobsDebug);
-  }
+  // Render one section at a time to show content as soon as possible.
+  await renderSourceLists(jobsBySource);
 }
 
 // Event delegation for dynamically rendered buttons (cards + modal).

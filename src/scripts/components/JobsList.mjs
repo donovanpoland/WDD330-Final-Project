@@ -119,7 +119,7 @@ function jobCardTemplate(job){
         <article class="card grid job-card">
             <div class="grid">
                 <h3>${job.CompanyName}</h3>
-                <h5>${job.Position}</h4>
+                <h5>${job.Position}</h5>
                 <img src="${job.ImageUrl}" alt="${job.CompanyName} Logo">
             </div>
             <ul class="flex-row">

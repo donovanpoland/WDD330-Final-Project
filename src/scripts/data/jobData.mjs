@@ -29,7 +29,7 @@ export default class JobData {
   getStorageKey() {
     // Include request parameters in cache key so changing filters/page count refreshes data.
     if (this.useLocal) {
-      return "jobs:data:local:v1";
+      return "jobs:data:local:v2";
     }
 
     const queryPart = encodeURIComponent(String(this.query || "").trim().toLowerCase());
@@ -85,15 +85,15 @@ export default class JobData {
     return uniqueByLower.size ? Array.from(uniqueByLower.values()) : ["Other"];
   }
 
-  normalizeJSearchJob(job) {
-    const key = import.meta.env.VITE_LOGODEV_PUBLIC_KEY;
-    const highlights = job.job_highlights || {};
-    const sources = this.inferSources(job);
-    const companyDomain = String(job.employer_website || "")
-    .replace(/^https?:\/\//, "")
-    .replace(/^www\./, "")
-    .split("/")[0];
-    const applyOptions = Array.isArray(job.apply_options)
+  getCompanyDomain(siteUrl) {
+    return String(siteUrl || "")
+      .replace(/^https?:\/\//, "")
+      .replace(/^www\./, "")
+      .split("/")[0];
+  }
+
+  normalizeApplyOptions(job) {
+    return Array.isArray(job.apply_options)
       ? job.apply_options
           .map((option) => ({
             publisher: String(option?.publisher || "").trim() || "Apply",
@@ -102,21 +102,41 @@ export default class JobData {
           }))
           .filter((option) => option.applyLink)
       : [];
-    const preferredApplyLink =
+  }
+
+  getPreferredApplyLink(job, applyOptions) {
+    return (
       applyOptions.find((option) => option.isDirect)?.applyLink ||
       String(job.job_apply_link || "").trim() ||
       applyOptions[0]?.applyLink ||
-      "#";
+      "#"
+    );
+  }
+
+  normalizeRawJSearchResponse(response) {
+    const rawJobs = Array.isArray(response?.data) ? response.data : [];
+    return rawJobs.map((job) => this.normalizeJSearchJob(job));
+  }
+
+  normalizeJSearchJob(job) {
+    const key = String(import.meta.env.VITE_LOGODEV_PUBLIC_KEY || "").trim();
+    const highlights = job.job_highlights || {};
+    const sources = this.inferSources(job);
+    const companySite = String(job.employer_website || "").trim();
+    const companyDomain = this.getCompanyDomain(companySite);
+    const applyOptions = this.normalizeApplyOptions(job);
+    const preferredApplyLink = this.getPreferredApplyLink(job, applyOptions);
     const workType =
       typeof job.job_is_remote === "boolean"
         ? (job.job_is_remote ? "Remote" : "On-site")
         : "Unknown";
+
     return {
       CompanyName: job.employer_name || "Unknown Company",
       Source: sources[0],
       Sources: sources,
       Position: job.job_title || "Unknown Position",
-      CompanySite: job.employer_website || "#",
+      CompanySite: companySite || "#",
       ImageUrl: job.employer_logo || `https://img.logo.dev/${companyDomain}?token=${key}`,
       Location:
         [job.job_city, job.job_state].filter(Boolean).join(", ") ||
@@ -136,7 +156,6 @@ export default class JobData {
       OtherReqs: "",
       Benefits: highlights.Benefits,
       ApplyOptions: applyOptions,
-      CompanySite: job.employer_website || "#",
       listingURL: preferredApplyLink,
     };
   }
@@ -159,12 +178,23 @@ export default class JobData {
     console.log("JSearch raw response:", response);
 
     // JSearch returns { data: [...] }.
-    const rawJobs = Array.isArray(response?.data) ? response.data : [];
-    return rawJobs.map((job) => this.normalizeJSearchJob(job));
+    return this.normalizeRawJSearchResponse(response);
   }
 
   async fetchJobs() {
-    if (this.useLocal || this.baseUrl) {
+    if (this.useLocal) {
+      const url = this.sourceMapped();
+      const response = await fetchJson(url);
+
+      // Support both pre-normalized arrays and raw JSearch { data: [...] } payloads.
+      if (Array.isArray(response)) {
+        return response;
+      }
+
+      return this.normalizeRawJSearchResponse(response);
+    }
+
+    if (this.baseUrl) {
       const url = this.sourceMapped();
       return fetchJson(url);
     }

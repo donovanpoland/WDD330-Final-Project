@@ -1,5 +1,5 @@
-// Local demo data file used during development.
-export const fakeData = "/json/dummyJobData.json";
+// Local fallback snapshot in raw JSearch format.
+export const fakeData = "/json/jsearchRespanse.json";
 
 // Remote API base URL (kept for future integration).
 export const jSearchurl = 'https://jsearch.p.rapidapi.com/';
