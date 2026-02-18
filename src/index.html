@@ -14,7 +14,7 @@
     <!-- Style sheets -->
     <link rel="stylesheet" href="/styles/styles.css" />
     <link rel="stylesheet" href="/styles/navigation.css" />
-    <link rel="stylesheet" href="/styles/desktop.css" />
+    <link rel="stylesheet" href="styles/home.css">
     <!-- Open Graph protocol meta tags -->
     <meta property="og:title" content="Resume Workshop">
     <meta property="og:description" content="">
@@ -46,24 +46,62 @@
     <header id="dy-header" class="grid">
       <!-- Dynamicly display header info here with js -->
     </header>
-    <main>
-      <h1>Home</h1>
-      <section class="card">
+    <main class="grid">
+      <h1>Tailor Your Resume to Every Job.</h1>
+      <section class="hero grid">
         <!-- Hero section -->
-        <h2>Test paragraph</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil
-          explicabo reiciendis temporibus impedit labore! Dicta sit harum porro
-          voluptas? Natus ab officiis illo in, labore animi exercitationem
-          ratione magni odio!
-        </p>
-      </section>
-      <section>
-        <!--  -->
+         <article class="heading flex-column">
+              <h2>Finding jobs is easy.</h2>
+              <p>Getting interviews is the <strong> hard </strong> part.</p>
+         </article>
+         <article class="workflow flex-column">
+            <p>
+              Find a job. Extract requirements. Build a targeted resume.
+            </p>
+            <div>
+              <span>Job</span>
+              <span class="arrow">→</span>
+              <span>Resume</span>
+              <span class="arrow">→</span>
+              <span>Interview</span>
+            </div>
+         </article>
+          <article class="grid cta">
+            <div class="flex-column">
+              <h3>Already have a job listing?</h3>
+              <p>We guide you through tailoring your resume to every job.</p>
+              <a class="btn" href="workshop/index.html">Start Building!</a>
+            </div>
+            <div class="flex-column">
+              <h3>Need to find a job?</h3>
+              <a class="btn" href="jobs/index.html">Search Here!</a>
+            </div>
+          </article>
+          <picture>
+              <!-- Aspect ratio 16:9 -->
+              <source 
+                  srcset="
+                      /images/hero/hero-320x180.webp 320w,
+                      /images/hero/hero-640x360.webp 640w,
+                      /images/hero/hero-960x540.webp 960w,
+                      /images/hero/hero-1280x720.webp 1280w,
+                      /images/hero/hero-1552x873.webp 1552w"
+                  type="image/webp"
+                  sizes="(max-width: 600px) 100vw, 1552px">
+              <img 
+                  src="/images/hero/hero-1552x873.webp"
+                  alt="hero"
+                  width="1552"
+                  loading="eager"
+                  fetchpriority="high">
+          </picture>
       </section>
     </main>
-    <footer id="dy-footer" class="flex-row">
-      <!-- Dynamicly display footer info here with js -->
+    <footer class="flex-column">
+      <div id="dy-footer">
+        <!-- Dynamicly display footer info here with js -->
+      </div>
+       <p>Photo by cottonbro studio: <a href="https://www.pexels.com/photo/a-man-sitting-at-the-table-9077352/">Pexels.com</a></p>
     </footer>
   </body>
 </html>

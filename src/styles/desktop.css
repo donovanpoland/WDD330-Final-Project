@@ -33,11 +33,7 @@
     padding-right: var(--normal);
     align-items: center;
 
-    & ul {
-      display: flex;
-      justify-content: flex-end;
-      gap: var(--half);
-    }
+
     & li {
       display: flex;
       justify-content: center;

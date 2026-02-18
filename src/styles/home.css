@@ -1,0 +1,80 @@
+.hero{
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+    padding: var(--normal);
+    grid-template-areas: 
+        "heading"
+        "image"
+        "cta";
+
+    @media only screen and (min-width: 38em) {
+        text-align: left;
+        max-width: 1600px;
+        grid-template-columns: 320px 1fr;
+        background-color: var(--bg-card);
+        border-radius: var(--radius);
+        grid-template-areas: 
+        "heading image"
+        "workflow image"
+        "cta image";
+        & a{
+            max-width: fit-content;
+        }
+    }/* End .hero media */
+    & .heading{
+        grid-area: heading;
+        @media only screen and (min-width: 38em) {
+        }
+        & h2{
+        font-weight: 300;
+        max-width: 28ch;        
+        }
+        & p{
+            gap: .25rem;
+            font-size: calc(var(--normal) - .1rem);
+            @media only screen and (min-width: 38em) {
+                font-size: var(--normal);
+            }
+        }
+    }
+    & .workflow{
+        grid-area: workflow;
+        align-items: center;
+        & span{
+            color: var(--color-text-muted);
+        }
+        & .arrow {
+            opacity: var(--op-med);
+        }
+    }
+        & .cta{
+        grid-area: cta;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        justify-content: center;
+        @media only screen and (min-width: 38em) {
+            gap: var(--double);
+        }
+        & a{
+            max-width: 160px;
+            align-self: center;
+        }
+    }
+    & picture, & img{
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        border-radius: var(--radius);
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+    & picture{
+        grid-area: image;
+    }
+}
