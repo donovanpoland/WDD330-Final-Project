@@ -1,10 +1,16 @@
 import JobList, { jobModalTemplate } from "../components/JobsList.mjs";
 import JobData from "../data/jobData.mjs";
+import { toSlugKey, toTitleCase } from "../utils/formatters.mjs";
+import { addFavorite, getStoredFavorites } from "../utils/jobStorage.mjs";
 
 const rapidApiKey = String(import.meta.env.VITE_RAPIDAPI_KEY || "").trim();
-const searchQuery = import.meta.env.VITE_JSEARCH_QUERY || "developer jobs in utah";
+const searchQuery =
+  import.meta.env.VITE_JSEARCH_QUERY || "developer jobs in utah";
 const searchCountry = import.meta.env.VITE_JSEARCH_COUNTRY || "us";
-const searchNumPages = Number.parseInt(import.meta.env.VITE_JSEARCH_NUM_PAGES || "3", 10);
+const searchNumPages = Number.parseInt(
+  import.meta.env.VITE_JSEARCH_NUM_PAGES || "3",
+  10,
+);
 
 // Shared data source instance for all job sections.
 // If a RapidAPI key exists, use JSearch; otherwise fallback to local JSON.
@@ -13,7 +19,8 @@ const dataSource = new JobData({
   query: searchQuery,
   country: searchCountry,
   // Use configured page count when valid; otherwise default to one page.
-  numPages: Number.isFinite(searchNumPages) && searchNumPages > 0 ? searchNumPages : 1,
+  numPages:
+    Number.isFinite(searchNumPages) && searchNumPages > 0 ? searchNumPages : 1,
   datePosted: import.meta.env.VITE_JSEARCH_DATE_POSTED || "all",
 });
 // Global lookup map across all sections: jobId -> job object.
@@ -22,20 +29,23 @@ const jobsById = new Map();
 const dialog = document.querySelector("#dialog");
 const listsRoot = document.querySelector("#jobs-lists");
 const searchContext = document.querySelector("#search-context");
-
-function toTitleCase(value) {
-  return String(value || "")
-    .toLowerCase()
-    .replace(/\b\w/g, (char) => char.toUpperCase());
-}
+const FAVORITE_NOTICE_LAYER_ID = "favorite-notice-layer";
+const FAVORITE_NOTICE_ID = "favorite-notice";
+let favoriteNoticeTimeout;
 
 function renderSearchContext() {
   if (!searchContext) return;
-  const match = String(searchQuery).trim().match(/^(.*?)\s+jobs?\s+in\s+(.*)$/i);
+  const match = String(searchQuery)
+    .trim()
+    .match(/^(.*?)\s+jobs?\s+in\s+(.*)$/i);
   // Use parsed "<role> jobs in <location>" format when it matches; otherwise use the full query.
-  const category = match ? `${toTitleCase(match[1])} Jobs` : toTitleCase(searchQuery);
+  const category = match
+    ? `${toTitleCase(match[1])} Jobs`
+    : toTitleCase(searchQuery);
   // Use parsed location when available; otherwise fall back to country code.
-  const location = match ? toTitleCase(match[2]) : String(searchCountry || "").toUpperCase();
+  const location = match
+    ? toTitleCase(match[2])
+    : String(searchCountry || "").toUpperCase();
   const country = String(searchCountry || "").toUpperCase();
 
   searchContext.innerHTML = `
@@ -45,20 +55,13 @@ function renderSearchContext() {
   `;
 }
 
-function sourceKey(source) {
-  return String(source || "")
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-}
-
 function getJobSources(job) {
   // Use multi-source list when present and non-empty; otherwise fall back to the primary source field.
-  const sources = Array.isArray(job?.Sources) && job.Sources.length ? job.Sources : [job?.Source];
-  return sources
-    .map((source) => String(source || "").trim())
-    .filter(Boolean);
+  const sources =
+    Array.isArray(job?.Sources) && job.Sources.length
+      ? job.Sources
+      : [job?.Source];
+  return sources.map((source) => String(source || "").trim()).filter(Boolean);
 }
 
 function groupJobsBySource(allJobs) {
@@ -75,7 +78,7 @@ function groupJobsBySource(allJobs) {
 
 function ensureListMount(source) {
   if (!listsRoot) return null;
-  const key = sourceKey(source);
+  const key = toSlugKey(source);
   let mount = Array.from(listsRoot.children).find(
     (node) => node?.dataset?.sourceKey === key,
   );
@@ -85,6 +88,50 @@ function ensureListMount(source) {
     listsRoot.append(mount);
   }
   return mount;
+}
+
+function ensureFavoriteNotice() {
+  let overlay = document.getElementById(FAVORITE_NOTICE_LAYER_ID);
+  if (!overlay) {
+    overlay = document.createElement("div");
+    overlay.id = FAVORITE_NOTICE_LAYER_ID;
+    overlay.style.position = "fixed";
+    overlay.style.inset = "0";
+    overlay.style.display = "grid";
+    overlay.style.placeItems = "center";
+    overlay.style.pointerEvents = "none";
+    overlay.style.zIndex = "5000";
+    document.body.append(overlay);
+  }
+
+  let notice = document.getElementById(FAVORITE_NOTICE_ID);
+  if (!notice) {
+    notice = document.createElement("p");
+    notice.id = FAVORITE_NOTICE_ID;
+    notice.setAttribute("role", "status");
+    notice.setAttribute("aria-live", "polite");
+    notice.style.padding = "0.75rem 1rem";
+    notice.style.borderRadius = "0.5rem";
+    notice.style.backgroundColor = "rgba(16, 24, 40, 0.95)";
+    notice.style.border = "1px solid rgba(56, 189, 248, 0.6)";
+    notice.style.color = "#f1f5f9";
+    notice.style.boxShadow = "0 10px 24px rgba(0, 0, 0, 0.35)";
+    notice.style.fontSize = "0.95rem";
+    notice.style.maxWidth = "280px";
+    notice.style.margin = "0";
+    overlay.append(notice);
+  }
+  return notice;
+}
+
+function showFavoriteNotice(message) {
+  const notice = ensureFavoriteNotice();
+  notice.textContent = message;
+  notice.style.display = "block";
+  clearTimeout(favoriteNoticeTimeout);
+  favoriteNoticeTimeout = window.setTimeout(() => {
+    notice.style.display = "none";
+  }, 2200);
 }
 
 async function renderSourceLists(jobsBySource) {
@@ -130,6 +177,24 @@ document.addEventListener("click", (event) => {
   const closeButton = event.target.closest("[data-close-dialog]");
   if (closeButton && dialog?.open) {
     dialog.close();
+    return;
+  }
+
+  // Save selected job from modal to local favorites storage.
+  const favoriteButton = event.target.closest("#add-fav");
+  if (favoriteButton) {
+    const selectedJob = jobsById.get(favoriteButton.dataset.jobId);
+    if (!selectedJob) return;
+    const previousCount = getStoredFavorites().length;
+    const updatedFavorites = addFavorite(selectedJob);
+    const wasAdded = updatedFavorites.length > previousCount;
+    const message = wasAdded
+      ? `${selectedJob.CompanyName} added to favorites.`
+      : `${selectedJob.CompanyName} is already in favorites.`;
+    if (dialog?.open) {
+      dialog.close();
+    }
+    showFavoriteNotice(message);
   }
 });
 

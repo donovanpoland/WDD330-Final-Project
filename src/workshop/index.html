@@ -4,10 +4,10 @@
     <title>Resume Workshop</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="Donovan Poland">
-    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="Donovan Poland" />
+    <meta name="robots" content="index, follow" />
     <!-- Scripts -->
     <script type="module" src="../scripts/utils/common.js"></script>
     <script type="module" src="../scripts/pages/workshop.js"></script>
@@ -16,11 +16,11 @@
     <link rel="stylesheet" href="/styles/navigation.css" />
     <link rel="stylesheet" href="/styles/workshop.css" />
     <!-- Open Graph protocol meta tags -->
-    <meta property="og:title" content="Resume Workshop">
-    <meta property="og:description" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
-    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Resume Workshop" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:locale" content="en_US" />
     <!-- Favicon -->
     <link
       rel="apple-touch-icon"
@@ -43,30 +43,74 @@
   </head>
 
   <body>
-    <header id="dy-header" class="grid">
-      <!-- Dynamicly display header info here with js -->
-    </header>
-    <aside>
-      <!-- Aside section containing jobs -->
-    </aside>
-    <main>
-      <h1>Workshop</h1>
-      <section class="card">
-        <!-- Hero section -->
-        <h2>Test paragraph</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil
-          explicabo reiciendis temporibus impedit labore! Dicta sit harum porro
-          voluptas? Natus ab officiis illo in, labore animi exercitationem
-          ratione magni odio!
-        </p>
-      </section>
-      <!-- Main canvas displays here -->
-    </main>
-    <footer  class="flex-column">
-      <div id="dy-footer">
-        <!-- Dynamicly display footer info here with js -->
-      </div>
-    </footer>
+    <div class="app grid" id="app">
+      <header id="dy-header" class="grid header">
+        <!-- Dynamicly display header info here with js -->
+      </header>
+      <!-- Aside section containing saved jobs -->
+      <aside class="card">
+        <!-- Aside header -->
+        <header>
+          <div class="flex-row">
+            <h3>Favorites</h3>
+            <button class="filter">
+              <img
+                src="/images/icons/dm-filter.svg"
+                alt="Filter Button"
+                title="Filter listed jobs"
+                width="20"
+                height="20"
+              />
+            </button>
+            <!-- hide or open side bar -->
+            <!-- <button>⩚⩛⪻⪼</button> -->
+          </div>
+          <div class="import flex-column">
+            <!-- Create new job in list Manually -->
+            <button id="manual" class="flex-row">
+              <strong>+</strong>New Job
+            </button>
+          </div>
+        </header>
+        <div id="favorites" class="flex-column">
+          <!-- inject list here with js -->
+        </div>
+      </aside>
+      <main class="info">
+        <div class="overview-head flex-row">
+          <h1>Company Overview</h1>
+          <button id="save-manual-top" class="btn" type="button">
+            Save Details
+          </button>
+        </div>
+        <section class="grid company-info">
+          <div id="details" class="flex-column">
+            <!-- job details insert -->
+          </div>
+          <div id="canvas">
+            <!-- resume insert -->
+          </div>
+        </section>
+      </main>
+      <dialog id="job-text-modal" class="job-text-modal card">
+        <div class="flex-row">
+          <h3 id="job-text-modal-title">Details</h3>
+          <button
+            id="close"
+            type="button"
+            data-close-job-text
+            aria-label="Close"
+          >
+            ❌
+          </button>
+        </div>
+        <p id="job-text-modal-content"></p>
+      </dialog>
+      <footer class="flex-column footer">
+        <div id="dy-footer">
+          <!-- Dynamicly display footer info here with js -->
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

@@ -1,4 +1,5 @@
 import { renderListWithTemplate } from "../utils/utils.mjs";
+import { formatSourceLabel, toSlugKey } from "../utils/formatters.mjs";
 
 // Handles one source-specific job list section (indeed, glassdoor, linkedin).
 export default class JobList{
@@ -50,7 +51,6 @@ export default class JobList{
 
 const seePosting = "See full posting for detailed responsibilities.";
 const noRequirements = "No requirements listed.";
-const noURL = "#";
 const cardDescriptionLength = 180;
 const renderChunkSize = 8;
 
@@ -98,12 +98,6 @@ function resolveListingSourceForModal(job, sourceLabel) {
     return job?.CompanyName || "Publisher";
 }
 
-function formatSourceLabel(source) {
-    const value = String(source || "").trim();
-    if (!value) return "Publisher";
-    return value.replace(/\b\w/g, (char) => char.toUpperCase());
-}
-
 function toListItems(value, fallbackText) {
     // Use value directly when it is already an array; otherwise split string text into list items.
     const list = Array.isArray(value)
@@ -149,7 +143,7 @@ export function jobModalTemplate(job){
                     <h2>${job.CompanyName}</h2>
                     <h3>${job.Position}</h3>
                 </div>
-                <a href="${job.CompanySite || noURL}" target="_blank">
+                <a href="${job.CompanySite}" target="_blank">
                     <img src="${job.ImageUrl}" alt="${job.CompanyName} Logo" title="Go to ${job.CompanyName}">
                 </a>
                 <button id="close" 
@@ -173,12 +167,12 @@ export function jobModalTemplate(job){
             <ul class="modal-detail-list">${toListItems(job.Benefits)}</ul>
             <div class="flex-row modal-btns"> 
                 <a class="btn" 
-                    href="${job.listingURL || noURL}"
+                    href="${job.listingURL}"
                     target="_blank" 
                     rel="noopener noreferrer"
                     >View Full Posting on ${formatSourceLabel(job.listingSource)}
                 </a>
-                <button id="add-fav">Favorite</button>
+                <button id="add-fav" data-job-id="${job._jobId}" type="button">Favorite</button>
             </div>
         </article>`;
 }
@@ -186,10 +180,7 @@ export function jobModalTemplate(job){
 function jobSectionTemplate(source){
     const sourceValue = String(source || "").trim();
     const sourceLabel = formatSourceLabel(sourceValue);
-    const sourceId = sourceValue
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-+|-+$/g, "");
+    const sourceId = toSlugKey(sourceValue);
     return `
         <section id="${sourceId}" class="grid list-container">
             <h2>${sourceLabel}</h2>

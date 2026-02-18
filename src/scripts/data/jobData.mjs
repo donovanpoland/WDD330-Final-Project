@@ -127,6 +127,7 @@ export default class JobData {
     const highlights = job.job_highlights || {};
     const sources = this.inferSources(job);
     const companySite = String(job.employer_website || "").trim();
+    const noURL = "#";
     const companyDomain = this.getCompanyDomain(companySite);
     const applyOptions = this.normalizeApplyOptions(job);
     const preferredApplyLink = this.getPreferredApplyLink(job, applyOptions);
@@ -142,7 +143,7 @@ export default class JobData {
       Sources: sources,
       Position: job.job_title || "Unknown Position",
       CompanySite: companySite || "#",
-      ImageUrl: job.employer_logo || `https://img.logo.dev/${companyDomain}?token=${key}`,
+      ImageUrl: job.employer_logo || `https://img.logo.dev/${companyDomain}?token=${key}` || noURL,
       Location:
         [job.job_city, job.job_state].filter(Boolean).join(", ") ||
         job.job_country ||
@@ -179,7 +180,7 @@ export default class JobData {
       method: "GET",
       headers: {
         "x-rapidapi-key": apiKey,
-        "x-rapidapi-host": import.meta.env.VITE_RAPIDAPI_HOST || "jsearch.p.rapidapi.com",
+        "x-rapidapi-host": "jsearch.p.rapidapi.com",
       },
     });
     console.log("JSearch raw response:", response);

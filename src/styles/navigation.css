@@ -98,7 +98,7 @@ nav {
   }
 
   @media only screen and (min-width: 38em) {
-      & ul {
+    & ul {
       display: flex;
       justify-content: flex-end;
       gap: var(--half);
@@ -133,7 +133,7 @@ nav {
         border-color 0.3s ease-in-out,
         box-shodow 0.3s ease-in-out;
     }
-    &:hover{
+    &:hover {
       transform: translateY(-2px);
       @media only screen and (min-width: 38em) {
         border-color: var(--border-strong);
@@ -148,12 +148,12 @@ nav {
       font-size: var(--plushalf);
       border: none;
       transition: color 0.3s ease-in-out;
-      &:hover{
+      &:hover {
         color: var(--color-text);
       }
     }
   }
-}/* end .navigation  */
+} /* end .navigation  */
 
 button,
 .btn {
@@ -171,7 +171,7 @@ button,
   font-weight: 600;
   height: var(--touch-target);
   padding: var(--normal);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 button:hover,

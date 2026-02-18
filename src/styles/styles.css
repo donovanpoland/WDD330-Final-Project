@@ -33,7 +33,7 @@
 }
 
 /* Variables */
-:root { 
+:root {
   /* back ground colors */
   --bg-base: #060b20;
   --bg-card: #172b49;
@@ -50,10 +50,10 @@
 
   /* Border colors */
   --border-strong: #38bdf8;
-  --border-subtle: rgba(148, 163, 184, var(--op-suble));;
+  --border-subtle: rgba(148, 163, 184, var(--op-suble));
 
   /* Shadows */
-  --shadow-card: 10px 20px 30px rgba(90, 90, 90, 0.3);
+  --shadow-card: 10px 20px 30px rgba(0, 0, 0, 0.3);
   --shadow-soft: 0 10px 28px rgba(0, 0, 0, 0.35);
   --shadow-focus: 2px 6px 10px rgba(56, 189, 248, 0.45);
   --shadow-inset: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
@@ -105,7 +105,6 @@ h6 {
   @media only screen and (min-width: 38em) {
     text-align: left;
   }
-  
 }
 
 a {
@@ -113,11 +112,11 @@ a {
   text-decoration: none;
 }
 
-::backdrop{
-    background-color: rgba(21, 21, 21, .7);
+::backdrop {
+  background-color: rgba(21, 21, 21, 0.7);
 }
 
-dialog{
+dialog {
   margin: auto auto;
   color: var(--color-text);
   border: var(--border-medium) solid var(--border-strong);
@@ -125,14 +124,12 @@ dialog{
   max-width: 900px;
   scrollbar-width: thin;
   scrollbar-color: var(--border-strong) var(--bg-card-inner);
-  & ul{
+  & ul {
     list-style: none;
   }
 }
 
-
-
-dialog #close{
+dialog #close {
   font-size: var(--normal);
   display: flex;
   justify-content: center;
@@ -140,8 +137,6 @@ dialog #close{
   width: var(--touch-target);
   z-index: 10;
 }
-
-
 
 /* Custom classes */
 .flex-column {
@@ -156,7 +151,7 @@ dialog #close{
   gap: var(--half);
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
@@ -169,35 +164,50 @@ dialog #close{
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
 .indent {
   text-indent: 1rem;
 }
 
 /* Content Decoration */
 
-.card{
-  border: var(--border-small) solid  var(--border-subtle);
+.card {
+  border: var(--border-small) solid var(--border-subtle);
   padding: var(--half);
   background-color: var(--bg-card);
   box-shadow: var(--shadow-card);
   border-radius: var(--radius);
-  transition: 
-    border-color 0.3s ease-in-out
-    box-shadow 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out box-shadow 0.3s ease-in-out;
 
-  &:hover{
+  &:hover {
     border-color: var(--border-strong);
     box-shadow: var(--shadow-focus);
   }
 }
 
-
-/* Grid areas */
-
 /* Footer */
 footer {
-  padding-bottom: 2rem;
   text-align: center;
   justify-content: center;
-  padding: var(--normal);
+  padding: var(--double);
+  grid-area: footer;
+  grid-column: 1/3;
+  transition: transform 0.2s ease;
+
+  & img {
+    width: var(--normal);
+    height: auto;
+  }
+  & a {
+    display: inline-flex;
+    align-items: center;
+    gap: calc(var(--half) - 0.25rem);
+    text-decoration: underline;
+  }
+  & a:hover {
+    transform: translateY(-2px);
+  }
 }
