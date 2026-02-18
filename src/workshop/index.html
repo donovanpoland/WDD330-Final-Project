@@ -43,30 +43,47 @@
   </head>
 
   <body>
-    <header id="dy-header" class="grid">
-      <!-- Dynamicly display header info here with js -->
-    </header>
-    <aside>
-      <!-- Aside section containing jobs -->
-    </aside>
-    <main>
-      <h1>Workshop</h1>
-      <section class="card">
-        <!-- Hero section -->
-        <h2>Test paragraph</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil
-          explicabo reiciendis temporibus impedit labore! Dicta sit harum porro
-          voluptas? Natus ab officiis illo in, labore animi exercitationem
-          ratione magni odio!
-        </p>
-      </section>
-      <!-- Main canvas displays here -->
-    </main>
-    <footer  class="flex-column">
-      <div id="dy-footer">
-        <!-- Dynamicly display footer info here with js -->
-      </div>
-    </footer>
+    <div class="app grid" id="app">
+      <header id="dy-header" class="grid header">
+        <!-- Dynamicly display header info here with js -->
+      </header>
+      <!-- Aside section containing saved jobs -->
+      <aside class="card">
+        <!-- Aside header -->
+          <header>
+              <div class="flex-row">
+                  <h3>Favorites</h3>
+                  <button class="filter"><img src="/images/icons/dm-filter.svg" alt="Filter Button" title="Filter listed jobs" width="20" height="20"></button>
+                  <!-- hide or open side bar -->
+                  <button>⩚⩛⪻⪼</button>
+              </div>
+              <div class="import flex-column">
+                  <!-- Create new job in list Manually -->
+                  <button id="manual" class="flex-row"><strong>+</strong>New Job</button>
+              </div>
+            </header>
+            <div id="favorites" class="flex-column">
+            <!-- inject list here with js -->
+            </div>
+      </aside>
+      <main class="info">
+        <h1>Company Overview</h1>
+          <section class="grid company-info">
+
+              <div id="details">
+                <!-- job details insert -->
+              </div>
+              <div id="canvas">
+                <!-- resume insert -->
+              </div>
+          </section>
+      </main>
+      <footer  class="flex-column footer">
+        <div id="dy-footer">
+          <!-- Dynamicly display footer info here with js -->
+        </div>
+        <img src="/images/icons/dm-info.svg" alt="More Info">
+      </footer>
+    </div>
   </body>
 </html>

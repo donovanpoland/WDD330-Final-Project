@@ -1,5 +1,7 @@
 import JobList, { jobModalTemplate } from "../components/JobsList.mjs";
 import JobData from "../data/jobData.mjs";
+import { toSlugKey, toTitleCase } from "../utils/formatters.mjs";
+import { addFavorite } from "../utils/jobStorage.mjs";
 
 const rapidApiKey = String(import.meta.env.VITE_RAPIDAPI_KEY || "").trim();
 const searchQuery = import.meta.env.VITE_JSEARCH_QUERY || "developer jobs in utah";
@@ -23,12 +25,6 @@ const dialog = document.querySelector("#dialog");
 const listsRoot = document.querySelector("#jobs-lists");
 const searchContext = document.querySelector("#search-context");
 
-function toTitleCase(value) {
-  return String(value || "")
-    .toLowerCase()
-    .replace(/\b\w/g, (char) => char.toUpperCase());
-}
-
 function renderSearchContext() {
   if (!searchContext) return;
   const match = String(searchQuery).trim().match(/^(.*?)\s+jobs?\s+in\s+(.*)$/i);
@@ -43,14 +39,6 @@ function renderSearchContext() {
     <p>Category: <strong>${category}</strong></p>
     <p>Location: <strong>${location}</strong> (${country})</p>
   `;
-}
-
-function sourceKey(source) {
-  return String(source || "")
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
 }
 
 function getJobSources(job) {
@@ -75,7 +63,7 @@ function groupJobsBySource(allJobs) {
 
 function ensureListMount(source) {
   if (!listsRoot) return null;
-  const key = sourceKey(source);
+  const key = toSlugKey(source);
   let mount = Array.from(listsRoot.children).find(
     (node) => node?.dataset?.sourceKey === key,
   );
@@ -130,6 +118,15 @@ document.addEventListener("click", (event) => {
   const closeButton = event.target.closest("[data-close-dialog]");
   if (closeButton && dialog?.open) {
     dialog.close();
+    return;
+  }
+
+  // Save selected job from modal to local favorites storage.
+  const favoriteButton = event.target.closest("#add-fav");
+  if (favoriteButton) {
+    const selectedJob = jobsById.get(favoriteButton.dataset.jobId);
+    if (!selectedJob) return;
+    addFavorite(selectedJob);
   }
 });
 

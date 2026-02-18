@@ -1,0 +1,193 @@
+:root{
+    --status-discovered: #38bdf8;   /* blue */
+    --status-analyzing:  #facc15;   /* amber */
+    --status-tailoring:  #a855f7;   /* purple */
+    --status-ready:      #2dd4bf;   /* teal */
+    --status-applied:    #22c55e;   /* green */
+    --status-interview:  #6366f1;   /* indigo */
+    --status-offer:      #10b981;   /* emerald */
+    --status-archived:   #6b7280;   /* gray */
+}
+
+.app{
+    grid-template-columns: 320px 3fr;
+    grid-template-areas: 
+        "header header"
+        "sidebar info"
+        "footer footer";
+}
+
+aside{
+    margin-left: var(--normal);
+    height: 100vh;
+    
+    &.card:hover{
+        border-color: var(--border-subtle);
+        box-shadow: none;
+    }
+    & h3{
+        align-self: center;
+    }
+    & header{
+        padding: var(--normal);
+        margin-bottom: var(--normal);
+    }
+    & button.filter{
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+    }
+    & .fav{
+        background-color: var(--bg-card-inner);
+        align-items: center;
+        position: relative;
+        grid-template-areas: 
+        "head image"
+        "progress progress";
+        & .head{
+            grid-area: head;
+            & .position{
+                color: var(--color-text-muted);
+            }
+        }   
+        & image{
+            grid-area: image;
+        }
+        & progress{
+            grid-area: progress;
+        }
+        & .trash{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            &:hover{
+                transform: translateY(-2px);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-text);
+    box-shadow: none;
+}
+
+input{
+    background-color: var(--bg-card-inner);
+    border-radius: var(--radius);
+    width: fit-content;
+    color: var(--color-text);
+    padding: var(--half);
+    height: var(--touch-target);
+    
+}
+
+input[readonly] {
+    background: #858585;
+    cursor: not-allowed;
+    
+  }
+
+.import{
+    justify-content: center;
+}
+
+/* Grid areas */
+.sidebar{
+    grid-area: sidebar;
+}
+
+.header{
+    grid-area: header;
+}
+
+.info{
+    grid-area: info;
+}
+
+img.status{
+    border: var(--border-large) solid var(--status-discovered);
+    border-radius: var(--radius);
+    background-color: var(--bg-card-inner);
+}
+
+select:hover{
+    cursor: pointer;
+    box-shadow: none;
+}
+
+select.status{
+    background-color: var(--bg-card-inner);
+    color: var(--color-text);
+    border-radius: var(--radius);
+    padding: var(--half);
+    min-height: var(--touch-target);
+    width: 100%;
+}
+
+select.status option{
+    background-color: var(--bg-card);
+    color: var(--color-text);
+    border: none;
+    border-radius: var(--radius);
+}
+
+select.status{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    &.status-discovered{
+    border-color: var(--status-discovered);
+    }
+    &.status-analyzing{
+        border-color: var(--status-analyzing);
+    }
+    &.status-tailoring{
+        border-color: var(--status-tailoring);
+    }
+    &.status-ready{
+        border-color: var(--status-ready);
+    }
+    &.status-applied{
+        border-color: var(--status-applied);
+    }
+    &.status-interviewing{
+        border-color: var(--status-interview);
+    }
+    &.status-offer{
+        border-color: var(--status-offer);
+    }
+    &.status-archived{
+        border-color: var(--status-archived);
+    }
+}
+
+img.status{
+    &.status-discovered{
+        border-color: var(--status-discovered);
+    }
+    &.status-analyzing{
+        border-color: var(--status-analyzing);
+    }
+    &.status-tailoring{
+        border-color: var(--status-tailoring);
+    }
+    &.status-ready{
+        border-color: var(--status-ready);
+    }
+    &.status-applied{
+        border-color: var(--status-applied);
+    }
+    &.status-interviewing{
+        border-color: var(--status-interview);
+    }
+    &.status-offer{
+        border-color: var(--status-offer);
+    }
+    &.status-archived{
+        border-color: var(--status-archived);
+    }
+}
